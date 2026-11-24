@@ -138,6 +138,31 @@
       "exists_within_candidate": true
     },
     {
+      "source": "docs/CONTRIBUTIONS_AI.md",
+      "target": "../adapter/qwen_baseline/backend.py",
+      "exists_within_candidate": true
+    },
+    {
+      "source": "docs/CONTRIBUTIONS_AI.md",
+      "target": "../adapter/actionbridge/godot/ActionBridge.gd",
+      "exists_within_candidate": true
+    },
+    {
+      "source": "docs/CONTRIBUTIONS_AI.md",
+      "target": "../adapter/actionbridge/store.py",
+      "exists_within_candidate": true
+    },
+    {
+      "source": "docs/CONTRIBUTIONS_AI.md",
+      "target": "../evidence/RC1_CANDIDATE_INTEGRATION.json",
+      "exists_within_candidate": true
+    },
+    {
+      "source": "docs/CONTRIBUTIONS_AI.md",
+      "target": "../evidence/SUMMARY.md",
+      "exists_within_candidate": true
+    },
+    {
       "source": "docs/EXTERNAL_ASSETS.md",
       "target": "REPRODUCTION.md",
       "exists_within_candidate": true

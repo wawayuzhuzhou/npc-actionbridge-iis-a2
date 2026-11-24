@@ -13,7 +13,7 @@ and writing. The student is responsible for the submitted claims and references.
 | Evaluation | Separated live G1, deterministic supplied-action scenarios and guided H controls | Saved contexts, state/API/SQL comparisons and student screenshots |
 | Reproduction | Imported raw assets before loading scenes/autoloads in new runtime copies | Three clean Windows imports and six paired headless scenarios |
 | H-UI-02 presentation | Responded to the student's feedback about empty space and mechanical NPC wording: reused the shop graphics, then selected fixed Merchant lines from actual outcomes | Student Cancel/Confirm signals, three untouched viewport captures, original feedback retained separately, unchanged bridge/HUD hashes |
-| Final report and README | Replaced generic success claims with the three-invalid/two-valid/one-cancel result; simplified repeated limitations | Existing result records, actual Word counts and all-page inspection |
+| Final report and README | Replaced generic success claims with the three-invalid/two-valid/one-cancel result; simplified repeated limitations | Existing result records, document text counts and all-page PDF inspection |
 
 AI suggestions were revised when they blurred execution tests with model
 accuracy or treated guided screenshots as natural gameplay. Checks used actual
@@ -49,3 +49,27 @@ core feedback and actual outcome. The original event records, source hashes
 and three PNGs were checked together; no provider request or API/SQLite save
 occurs in this path. Original game graphics and private records remain outside
 this public snapshot; the illustrated coursework report contains the captures.
+
+## Inspectable design decisions
+
+The shared Qwen adapter preserves the upstream context policy, while the two
+execution paths expose the intervention. The [Baseline backend](../adapter/qwen_baseline/backend.py)
+stores the generated response; the [local bridge](../adapter/actionbridge/godot/ActionBridge.gd)
+checks prerequisites and resolves Confirm/Cancel. The [outcome store](../adapter/actionbridge/store.py)
+reconciles the proposal with its linked conversation. The preserved
+[six-pair integration results](../evidence/RC1_CANDIDATE_INTEGRATION.json) and
+[result table](../evidence/SUMMARY.md#deterministic-supplied-action-outcomes)
+allow those implementation choices to be checked against actual recorded states
+and stored actions.
+
+The student's Merchant revision is a separate presentation decision. The student
+rejected “Purchase completed. Current state: 0 Gold; Katana: yes.” as unnatural
+NPC speech and requested dialogue. The replacement, “Here's your katana. Eight
+gold, paid in full. Take good care of it.”, is an authored display line selected
+only after a committed local outcome. The student then personally operated
+Cancel and Confirm. It is not a newly generated model reply, a change to the
+frozen bridge, or evidence of measured usability improvement.
+
+The public history is an explicitly curated release snapshot followed by
+documentation revisions. These source and result links support inspection;
+they do not reconstruct or replace the original private development history.

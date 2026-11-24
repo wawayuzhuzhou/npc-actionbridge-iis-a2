@@ -21,5 +21,6 @@
   "final_editorial_delta": "Report, README, diagram labels and explanatory documentation only; code/data/evaluation records unchanged; no execution repeated.",
   "licence_scope_refinement": "World facts classified as retained upstream data, not original code; file bytes and upstream terms unchanged.",
   "release_delta": "Based on the accepted 80-file snapshot; one LICENSE added; no executable, fixture, result or upstream notice changed",
-  "final_brief_sync": "Public text now matches H-UI-02 supplied-state, authored-dialogue replay and restored lab references; executable code and historical results unchanged."
+  "final_brief_sync": "Public text now matches H-UI-02 supplied-state, authored-dialogue replay and restored lab references; executable code and historical results unchanged.",
+  "final_sprint_documentation": "Targeted final prose and development-record links; main report 1003 words, abstract 191. No executable, fixture, raw record, result, image or licence-scope change."
 }

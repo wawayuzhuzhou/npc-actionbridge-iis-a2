@@ -56,5 +56,6 @@
   "new_unit_Godot_or_provider_executions": 0,
   "executable_files_byte_equal_to_RC1": 38,
   "executable_files_byte_equal_to_accepted_editorial": 38,
-  "final_brief_documentation_sync": "Static checks only; zero new provider, game or unit-test runs. Historical verification records retained."
+  "final_brief_documentation_sync": "Static checks only; zero new provider, game or unit-test runs. Historical verification records retained.",
+  "final_sprint_verification": "Document consistency, existing-source inspection, exact file-set/hash and privacy checks only; zero new provider, unit, Godot or gameplay runs."
 }
