@@ -1,0 +1,77 @@
+{
+  "upstream_commit": "1dc1ab3624b1475d1975e8e1e6dd86f0c171f265",
+  "notice_files": [
+    {
+      "source_relative_path": "LICENSE",
+      "candidate_path": "notices/UPSTREAM_MIT.txt",
+      "sha256": "6b2e29b607c7bb4363b9ada02ec7b300b6a6ff265183b1b969ca273dc1eb6735",
+      "bytes": 1061,
+      "copy": "byte-identical"
+    },
+    {
+      "source_relative_path": "game/Assets/Ninja Adventure/README.md",
+      "candidate_path": "notices/NINJA_ADVENTURE_README.md",
+      "sha256": "679aadda4c7cd2e113d6d5f5a85798bb41ce0d5e647a7ac13b7667fd5a3f6036",
+      "bytes": 581,
+      "copy": "byte-identical"
+    },
+    {
+      "source_relative_path": "game/Assets/Ninja Adventure/LICENSE.txt",
+      "candidate_path": "notices/NINJA_ADVENTURE_CC0.txt",
+      "sha256": "1ab4dba5d237a49ad295604fae2098e039d3ae5fd57a62bbcbeff127210fba6e",
+      "bytes": 6606,
+      "copy": "byte-identical"
+    }
+  ],
+  "font_name_records_inspected_locally": [
+    {
+      "source_relative_path": "game/Assets/Ninja Adventure/Actor/Characters/Monk/OpenSans-Regular.ttf",
+      "sha256": "e64e508b2aa2880f907e470c4550980ec4c0694d103a43f36150ac3f93189bee",
+      "bytes": 217360,
+      "included": false,
+      "embedded_name_records": {
+        "0": [
+          "Digitized data copyright © 2010-2011, Google Corporation."
+        ],
+        "1": [
+          "Open Sans"
+        ],
+        "13": [
+          "Licensed under the Apache License, Version 2.0"
+        ],
+        "14": [
+          "http://www.apache.org/licenses/LICENSE-2.0"
+        ]
+      }
+    },
+    {
+      "source_relative_path": "game/Assets/Ninja Adventure/Ui/Font/NormalFont.ttf",
+      "sha256": "94c5cf42f93abf4f94781055bce1c337cb96ef9fc2954dcd6b05669d25ac4e03",
+      "bytes": 20944,
+      "included": false,
+      "embedded_name_records": {
+        "0": [
+          "Copyright pixel-boy 2021"
+        ],
+        "1": [
+          "NinjaAdventure"
+        ],
+        "13": [
+          "FontStruct Non-Commercial License"
+        ],
+        "14": []
+      }
+    }
+  ],
+  "audio_files_without_local_notice": [
+    "Click Foley 004.wav",
+    "Click Foley 005.wav",
+    "Click Magic 005.wav",
+    "coin-recieved-230517.mp3",
+    "dorm-door-opening-6038.mp3",
+    "footstep-1-83098.mp3",
+    "Japanese Vol4 Yami Main.wav"
+  ],
+  "binary_assets_included": false,
+  "legal_clearance_claimed": false
+}

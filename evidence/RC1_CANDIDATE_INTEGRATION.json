@@ -1,0 +1,423 @@
+{
+  "id": "RC1-CANDIDATE-INTEGRATION-01",
+  "status": "PASS",
+  "assertions": "PASS",
+  "paired_cases": 6,
+  "Godot_executions": 12,
+  "provider_requests": 0,
+  "model_client_constructed": false,
+  "GUI_tested": false,
+  "source_database_unchanged": true,
+  "fixture_contexts": "deterministic FixtureRetriever, not FAISS or stochastic outputs",
+  "candidate_fixture": "evidence/offline_action_fixture.json",
+  "candidate_fixture_sha256": "e75537efde2638216357fc70803c539fe905ec1028156ea5dac9d27d8152d6cf",
+  "raw_result_sha256": "cab117a6b5c87bea84181e5f7e55b16ca2f90e994529b333b7a2dea06a1ddf69",
+  "tested_code_manifest_sha256": "426a9521cb26cf238f64c851ab06439b7fa1f75c6a39ecf465846532c44378fd",
+  "cases": [
+    {
+      "case": "M1",
+      "matched_context": true,
+      "conditions": {
+        "B": {
+          "generation_http": 200,
+          "outcome_http": null,
+          "before": {
+            "door_open": false,
+            "gold": 7,
+            "katana": false
+          },
+          "after": {
+            "door_open": false,
+            "gold": 0,
+            "katana": true
+          },
+          "status": "BaselineDispatched",
+          "reason": "",
+          "sqlite_action": "sell_katana",
+          "raw_injected_action": "sell_katana",
+          "context_sha256": "0186a048e9479c8757350a2637b20ecaae65c1a3bf02ca4537a4aa545851991b"
+        },
+        "A": {
+          "generation_http": 200,
+          "outcome_http": 200,
+          "before": {
+            "door_open": false,
+            "gold": 7,
+            "katana": false
+          },
+          "after": {
+            "door_open": false,
+            "gold": 7,
+            "katana": false
+          },
+          "status": "Rejected",
+          "reason": "insufficient_gold",
+          "sqlite_action": "none",
+          "raw_injected_action": "sell_katana",
+          "context_sha256": "0186a048e9479c8757350a2637b20ecaae65c1a3bf02ca4537a4aa545851991b"
+        }
+      }
+    },
+    {
+      "case": "M2",
+      "matched_context": true,
+      "conditions": {
+        "B": {
+          "generation_http": 200,
+          "outcome_http": null,
+          "before": {
+            "door_open": false,
+            "gold": 8,
+            "katana": false
+          },
+          "after": {
+            "door_open": false,
+            "gold": 0,
+            "katana": true
+          },
+          "status": "BaselineDispatched",
+          "reason": "",
+          "sqlite_action": "sell_katana",
+          "raw_injected_action": "sell_katana",
+          "context_sha256": "11db9dcf8722b1e18dd39f1d9148705c6c509419398055445278c201367097fb"
+        },
+        "A": {
+          "generation_http": 200,
+          "outcome_http": 200,
+          "before": {
+            "door_open": false,
+            "gold": 8,
+            "katana": false
+          },
+          "after": {
+            "door_open": false,
+            "gold": 0,
+            "katana": true
+          },
+          "status": "Committed",
+          "reason": "",
+          "sqlite_action": "sell_katana",
+          "raw_injected_action": "sell_katana",
+          "context_sha256": "11db9dcf8722b1e18dd39f1d9148705c6c509419398055445278c201367097fb"
+        }
+      }
+    },
+    {
+      "case": "G1",
+      "matched_context": true,
+      "conditions": {
+        "B": {
+          "generation_http": 200,
+          "outcome_http": null,
+          "before": {
+            "door_open": false,
+            "gold": 0,
+            "katana": false
+          },
+          "after": {
+            "door_open": true,
+            "gold": 0,
+            "katana": false
+          },
+          "status": "BaselineDispatched",
+          "reason": "",
+          "sqlite_action": "open_door",
+          "raw_injected_action": "open_door",
+          "context_sha256": "58ec22127feb3c948111e549252dc4b5a69e5bcacacce465143e5315aea0a7ff"
+        },
+        "A": {
+          "generation_http": 200,
+          "outcome_http": 200,
+          "before": {
+            "door_open": false,
+            "gold": 0,
+            "katana": false
+          },
+          "after": {
+            "door_open": false,
+            "gold": 0,
+            "katana": false
+          },
+          "status": "Rejected",
+          "reason": "no_katana",
+          "sqlite_action": "none",
+          "raw_injected_action": "open_door",
+          "context_sha256": "58ec22127feb3c948111e549252dc4b5a69e5bcacacce465143e5315aea0a7ff"
+        }
+      }
+    },
+    {
+      "case": "G2",
+      "matched_context": true,
+      "conditions": {
+        "B": {
+          "generation_http": 200,
+          "outcome_http": null,
+          "before": {
+            "door_open": false,
+            "gold": 0,
+            "katana": true
+          },
+          "after": {
+            "door_open": true,
+            "gold": 0,
+            "katana": true
+          },
+          "status": "BaselineDispatched",
+          "reason": "",
+          "sqlite_action": "open_door",
+          "raw_injected_action": "open_door",
+          "context_sha256": "9477e0a5d701a123b6ad8e93580f54bb38fca3544ebef731cb57c8d48c6bcd57"
+        },
+        "A": {
+          "generation_http": 200,
+          "outcome_http": 200,
+          "before": {
+            "door_open": false,
+            "gold": 0,
+            "katana": true
+          },
+          "after": {
+            "door_open": true,
+            "gold": 0,
+            "katana": true
+          },
+          "status": "Committed",
+          "reason": "",
+          "sqlite_action": "open_door",
+          "raw_injected_action": "open_door",
+          "context_sha256": "9477e0a5d701a123b6ad8e93580f54bb38fca3544ebef731cb57c8d48c6bcd57"
+        }
+      }
+    },
+    {
+      "case": "M0_aux",
+      "matched_context": true,
+      "conditions": {
+        "B": {
+          "generation_http": 200,
+          "outcome_http": null,
+          "before": {
+            "door_open": false,
+            "gold": 0,
+            "katana": false
+          },
+          "after": {
+            "door_open": false,
+            "gold": 0,
+            "katana": true
+          },
+          "status": "BaselineDispatched",
+          "reason": "",
+          "sqlite_action": "sell_katana",
+          "raw_injected_action": "sell_katana",
+          "context_sha256": "b96ed7cfd9acddbda3b975e32152a309db6d9c30af92a929866a66d28b3ef76d"
+        },
+        "A": {
+          "generation_http": 200,
+          "outcome_http": 200,
+          "before": {
+            "door_open": false,
+            "gold": 0,
+            "katana": false
+          },
+          "after": {
+            "door_open": false,
+            "gold": 0,
+            "katana": false
+          },
+          "status": "Rejected",
+          "reason": "insufficient_gold",
+          "sqlite_action": "none",
+          "raw_injected_action": "sell_katana",
+          "context_sha256": "b96ed7cfd9acddbda3b975e32152a309db6d9c30af92a929866a66d28b3ef76d"
+        }
+      }
+    },
+    {
+      "case": "MC_aux",
+      "matched_context": true,
+      "conditions": {
+        "B": {
+          "generation_http": 200,
+          "outcome_http": null,
+          "before": {
+            "door_open": false,
+            "gold": 8,
+            "katana": false
+          },
+          "after": {
+            "door_open": false,
+            "gold": 0,
+            "katana": true
+          },
+          "status": "BaselineDispatched",
+          "reason": "",
+          "sqlite_action": "sell_katana",
+          "raw_injected_action": "sell_katana",
+          "context_sha256": "11db9dcf8722b1e18dd39f1d9148705c6c509419398055445278c201367097fb"
+        },
+        "A": {
+          "generation_http": 200,
+          "outcome_http": 200,
+          "before": {
+            "door_open": false,
+            "gold": 8,
+            "katana": false
+          },
+          "after": {
+            "door_open": false,
+            "gold": 8,
+            "katana": false
+          },
+          "status": "Cancelled",
+          "reason": "player_cancelled",
+          "sqlite_action": "none",
+          "raw_injected_action": "sell_katana",
+          "context_sha256": "11db9dcf8722b1e18dd39f1d9148705c6c509419398055445278c201367097fb"
+        }
+      }
+    }
+  ],
+  "engine_logs": [
+    {
+      "case": "M1",
+      "condition": "B",
+      "stdout_sha256": "7d88254c12f25eef3a2f259356b6b55f0ff0944166a7cc30799e748771f8cdcd",
+      "stdout_errors": 0,
+      "stdout_warnings": 0,
+      "godot_log_sha256": "3015873e166c92d917ebd38eea9bf18ed15abb6832fdea583dc532bf2950e628",
+      "godot_log_errors": 0,
+      "godot_log_warnings": 0,
+      "distinct_messages": []
+    },
+    {
+      "case": "M1",
+      "condition": "A",
+      "stdout_sha256": "4baf4c984becce5dc78acadc5991bc9c3b4bd96a2d38767ac14365b6aa36486c",
+      "stdout_errors": 0,
+      "stdout_warnings": 0,
+      "godot_log_sha256": "552a8b7308afeeaa13d27772382204c907145770b2a7869b3a14c79bb747cffa",
+      "godot_log_errors": 0,
+      "godot_log_warnings": 0,
+      "distinct_messages": []
+    },
+    {
+      "case": "M2",
+      "condition": "B",
+      "stdout_sha256": "7d88254c12f25eef3a2f259356b6b55f0ff0944166a7cc30799e748771f8cdcd",
+      "stdout_errors": 0,
+      "stdout_warnings": 0,
+      "godot_log_sha256": "3015873e166c92d917ebd38eea9bf18ed15abb6832fdea583dc532bf2950e628",
+      "godot_log_errors": 0,
+      "godot_log_warnings": 0,
+      "distinct_messages": []
+    },
+    {
+      "case": "M2",
+      "condition": "A",
+      "stdout_sha256": "4baf4c984becce5dc78acadc5991bc9c3b4bd96a2d38767ac14365b6aa36486c",
+      "stdout_errors": 0,
+      "stdout_warnings": 0,
+      "godot_log_sha256": "552a8b7308afeeaa13d27772382204c907145770b2a7869b3a14c79bb747cffa",
+      "godot_log_errors": 0,
+      "godot_log_warnings": 0,
+      "distinct_messages": []
+    },
+    {
+      "case": "G1",
+      "condition": "B",
+      "stdout_sha256": "9ef53544ace2055df1603b6f5a38b3675e30d77716086fd65cfcb47f7ab4835d",
+      "stdout_errors": 0,
+      "stdout_warnings": 0,
+      "godot_log_sha256": "183594f2413dcdc17416e5708a27f4a8569cd1a0f708f6edaccbb2ad685ca2ea",
+      "godot_log_errors": 0,
+      "godot_log_warnings": 0,
+      "distinct_messages": []
+    },
+    {
+      "case": "G1",
+      "condition": "A",
+      "stdout_sha256": "4baf4c984becce5dc78acadc5991bc9c3b4bd96a2d38767ac14365b6aa36486c",
+      "stdout_errors": 0,
+      "stdout_warnings": 0,
+      "godot_log_sha256": "552a8b7308afeeaa13d27772382204c907145770b2a7869b3a14c79bb747cffa",
+      "godot_log_errors": 0,
+      "godot_log_warnings": 0,
+      "distinct_messages": []
+    },
+    {
+      "case": "G2",
+      "condition": "B",
+      "stdout_sha256": "9ef53544ace2055df1603b6f5a38b3675e30d77716086fd65cfcb47f7ab4835d",
+      "stdout_errors": 0,
+      "stdout_warnings": 0,
+      "godot_log_sha256": "183594f2413dcdc17416e5708a27f4a8569cd1a0f708f6edaccbb2ad685ca2ea",
+      "godot_log_errors": 0,
+      "godot_log_warnings": 0,
+      "distinct_messages": []
+    },
+    {
+      "case": "G2",
+      "condition": "A",
+      "stdout_sha256": "4baf4c984becce5dc78acadc5991bc9c3b4bd96a2d38767ac14365b6aa36486c",
+      "stdout_errors": 0,
+      "stdout_warnings": 0,
+      "godot_log_sha256": "552a8b7308afeeaa13d27772382204c907145770b2a7869b3a14c79bb747cffa",
+      "godot_log_errors": 0,
+      "godot_log_warnings": 0,
+      "distinct_messages": []
+    },
+    {
+      "case": "M0_aux",
+      "condition": "B",
+      "stdout_sha256": "7d88254c12f25eef3a2f259356b6b55f0ff0944166a7cc30799e748771f8cdcd",
+      "stdout_errors": 0,
+      "stdout_warnings": 0,
+      "godot_log_sha256": "3015873e166c92d917ebd38eea9bf18ed15abb6832fdea583dc532bf2950e628",
+      "godot_log_errors": 0,
+      "godot_log_warnings": 0,
+      "distinct_messages": []
+    },
+    {
+      "case": "M0_aux",
+      "condition": "A",
+      "stdout_sha256": "4baf4c984becce5dc78acadc5991bc9c3b4bd96a2d38767ac14365b6aa36486c",
+      "stdout_errors": 0,
+      "stdout_warnings": 0,
+      "godot_log_sha256": "552a8b7308afeeaa13d27772382204c907145770b2a7869b3a14c79bb747cffa",
+      "godot_log_errors": 0,
+      "godot_log_warnings": 0,
+      "distinct_messages": []
+    },
+    {
+      "case": "MC_aux",
+      "condition": "B",
+      "stdout_sha256": "7d88254c12f25eef3a2f259356b6b55f0ff0944166a7cc30799e748771f8cdcd",
+      "stdout_errors": 0,
+      "stdout_warnings": 0,
+      "godot_log_sha256": "3015873e166c92d917ebd38eea9bf18ed15abb6832fdea583dc532bf2950e628",
+      "godot_log_errors": 0,
+      "godot_log_warnings": 0,
+      "distinct_messages": []
+    },
+    {
+      "case": "MC_aux",
+      "condition": "A",
+      "stdout_sha256": "4baf4c984becce5dc78acadc5991bc9c3b4bd96a2d38767ac14365b6aa36486c",
+      "stdout_errors": 0,
+      "stdout_warnings": 0,
+      "godot_log_sha256": "552a8b7308afeeaa13d27772382204c907145770b2a7869b3a14c79bb747cffa",
+      "godot_log_errors": 0,
+      "godot_log_warnings": 0,
+      "distinct_messages": []
+    }
+  ],
+  "limits": [
+    "Programmed decisions are not human authorisation",
+    "Supplied actions do not estimate Qwen error rate",
+    "ASGI TestClient HTTP results, no live listener",
+    "Godot and SQLite share a client-report measurement path",
+    "No graphical gameplay, export or Linux run"
+  ]
+}

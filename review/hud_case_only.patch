@@ -1,0 +1,22 @@
+--- a/fixture.gd
++++ b/fixture.gd
+@@ -76,7 +76,7 @@
+ 	assert(state.gold == 0 and not state.katana)
+ 	for key in state.existent_items:
+ 		state.pick_up_gold(key)
+-	hud = load("res://Scenes/UI/hud.tscn").instantiate()
++	hud = load("res://Scenes/UI/HUD.tscn").instantiate()
+ 	root.add_child(hud)
+ 	var bridge: Node = root.get_node("ActionBridgeUI").bridge
+ 	var initial: Dictionary = bridge.snapshot()
+--- a/prepare.py
++++ b/prepare.py
+@@ -23,7 +23,7 @@
+     source, target = args.source_game.resolve(), args.target.resolve()
+     if target.exists() or source == target or source in target.parents or "upstream_frozen" in {p.lower() for p in target.parts}:
+         parser.error("Use a fresh independent evaluation destination")
+-    checked = ["Scripts/ActionBridge.gd", "Scripts/ActionBridgeUI.gd", "Scripts/PersistanceManager.gd", "Scenes/UI/hud.gd", "Scenes/UI/hud.tscn"]
++    checked = ["Scripts/ActionBridge.gd", "Scripts/ActionBridgeUI.gd", "Scripts/PersistanceManager.gd", "Scenes/UI/hud.gd", "Scenes/UI/HUD.tscn"]
+     hashes = {name: digest(source / name) for name in checked}
+     game = target / "game"
+     shutil.copytree(source, game, ignore=shutil.ignore_patterns(".git"))

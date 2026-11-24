@@ -1,0 +1,24 @@
+{
+  "core_frozen_and_original_history_unchanged": true,
+  "existing_candidate_code_deltas": [
+    {
+      "path": "phase2/evaluation/run_offline.py",
+      "change": "same reviewed minimised fixture locator/loader; actual candidate integration now passed"
+    },
+    {
+      "path": "phase2/evaluation/h_ui_01/prepare.py",
+      "change": "same reviewed evaluation-only HUD filename case correction; no new GUI"
+    },
+    {
+      "path": "phase2/evaluation/h_ui_01/fixture.gd",
+      "change": "same reviewed evaluation-only HUD filename case correction; no new GUI"
+    }
+  ],
+  "new_preparation_tool": "tools/prepare_import_order.py; only new-copy import order, no core change",
+  "guard_helper": "tools/offline_unit_guard.py; byte-identical to actually executed external helper",
+  "public_sanitisation": "RC1 prose update; real player pseudonyms removed in public report/vectors; no game images",
+  "final_documentation_and_generated_records": "Targeted final report edits, active scoped MIT, README and regenerated review metadata",
+  "final_editorial_delta": "Report, README, diagram labels and explanatory documentation only; code/data/evaluation records unchanged; no execution repeated.",
+  "licence_scope_refinement": "World facts classified as retained upstream data, not original code; file bytes and upstream terms unchanged.",
+  "release_delta": "Based on the accepted 80-file snapshot; one LICENSE added; no executable, fixture, result or upstream notice changed"
+}

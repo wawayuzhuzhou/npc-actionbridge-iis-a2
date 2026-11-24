@@ -1,0 +1,43 @@
+{
+  "default": "Exclude every file not present in exact_file_allowlist.json",
+  "excluded_scopes": [
+    {
+      "scope": ".git/** and all private development history",
+      "reason": "Contains private provenance/metadata/history; clean snapshot carries none"
+    },
+    {
+      "scope": "audit_evidence/**, phase2/evidence/**, archive/**, source private report/provenance/approval/course files",
+      "reason": "Raw logs, local identifiers/paths, database records and nonselected material; new sanitised summaries substitute for public review only"
+    },
+    {
+      "scope": "**/.env*, credential/config files, environments, caches, package/engine binaries, model/FAISS/pickle indexes",
+      "reason": "Credentials, local runtime material and third-party binaries absent; acquire dependencies separately"
+    },
+    {
+      "scope": "**/*.db, **/*.sqlite*, live/seed DBs, financial ledgers and raw logs",
+      "reason": "Personal/operational records; synthetic tests construct temporary DBs; external seed acquisition required for replay"
+    },
+    {
+      "scope": "upstream game/** including Ninja Adventure pixels, all font and Sound binaries/import sidecars",
+      "reason": "No cleared full game distribution; NormalFont non-commercial/CC0 conflict, Open Sans Apache notices, seven audio provenance gaps"
+    },
+    {
+      "scope": "original screenshots, screenshot-bearing storyboards and full illustrated v0.3 DOCX/PDF",
+      "reason": "Underlying game artwork/font redistribution uncertain; private illustrated coursework report remains separate"
+    },
+    {
+      "scope": "phase2/final.rar and any user archives",
+      "reason": "User-owned archive left untouched; no copied archive or hidden history"
+    },
+    {
+      "scope": "private Chinese student pack, approval packet, raw RC1 logs and interpreter bytecode",
+      "reason": "Private learning/approval/provenance or generated runtime data, not selected publication content"
+    }
+  ],
+  "reproduction_effect": "Not a complete game distribution; recorded candidate integration passes after external asset acquisition and assets-first preparation",
+  "submission_effect": "Public text and vector diagrams accompany the separately submitted illustrated coursework report",
+  "access_requirement": "New public project repository; no private development history is included",
+  "legal_guarantee": false,
+  "current_candidate": "Authorised final public release based on accepted 80-file editorial snapshot",
+  "publication_authorised": true
+}

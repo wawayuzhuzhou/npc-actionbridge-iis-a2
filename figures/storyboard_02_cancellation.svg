@@ -1,0 +1,37 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='1600' height='990' viewBox='0 0 1600 990'>
+<defs><marker id='arrow' viewBox='0 0 10 10' refX='9' refY='5' markerWidth='9' markerHeight='9' orient='auto-start-reverse'><path d='M 0 0 L 10 5 L 0 10 z' fill='#475569'/></marker></defs><rect width='1600' height='990' fill='white'/>
+<text x='40' y='75' font-family='Segoe UI,Arial,sans-serif' font-size='47' font-weight='700' fill='#000000'>Cancellation and ownership follow-up</text>
+<text x='40' y='131' font-family='Segoe UI,Arial,sans-serif' font-size='29' font-weight='400' fill='#334155'>E4 interaction from saved dialogue and outcome records</text>
+<rect x='40' y='230' width='365' height='550' fill='#F8FAFC' stroke='#334155' stroke-width='3'/>
+<text x='60' y='283' font-family='Segoe UI,Arial,sans-serif' font-size='35' font-weight='700' fill='#334155'>Request /</text>
+<text x='60' y='327.799999237061' font-family='Segoe UI,Arial,sans-serif' font-size='35' font-weight='700' fill='#334155'>proposal</text>
+<text x='60' y='376' font-family='Segoe UI,Arial,sans-serif' font-size='34' font-weight='400' fill='#17212B'>I want to buy the</text>
+<text x='60' y='419.520000457764' font-family='Segoe UI,Arial,sans-serif' font-size='34' font-weight='400' fill='#17212B'>katana</text>
+<text x='60' y='463.040000915527' font-family='Segoe UI,Arial,sans-serif' font-size='34' font-weight='400' fill='#17212B'>sell_katana</text>
+<text x='60' y='506.560001373291' font-family='Segoe UI,Arial,sans-serif' font-size='34' font-weight='400' fill='#17212B'>Raw: &quot;Very well.</text>
+<text x='60' y='550.080001831055' font-family='Segoe UI,Arial,sans-serif' font-size='34' font-weight='400' fill='#17212B'>Here is your</text>
+<text x='60' y='593.600002288818' font-family='Segoe UI,Arial,sans-serif' font-size='34' font-weight='400' fill='#17212B'>katana.&quot;</text>
+<polyline points='405,505 425,505' fill='none' stroke='#475569' stroke-width='4' marker-end='url(#arrow)'/>
+<rect x='425' y='230' width='365' height='550' fill='#F8FAFC' stroke='#334155' stroke-width='3'/>
+<text x='445' y='283' font-family='Segoe UI,Arial,sans-serif' font-size='35' font-weight='700' fill='#334155'>Player control</text>
+<text x='445' y='376' font-family='Segoe UI,Arial,sans-serif' font-size='34' font-weight='400' fill='#17212B'>Outcome: Cancelled</text>
+<text x='445' y='419.520000457764' font-family='Segoe UI,Arial,sans-serif' font-size='34' font-weight='400' fill='#17212B'>Player declined the</text>
+<text x='445' y='463.040000915527' font-family='Segoe UI,Arial,sans-serif' font-size='34' font-weight='400' fill='#17212B'>sale</text>
+<text x='445' y='506.560001373291' font-family='Segoe UI,Arial,sans-serif' font-size='34' font-weight='400' fill='#17212B'>Purchase not</text>
+<text x='445' y='550.080001831055' font-family='Segoe UI,Arial,sans-serif' font-size='34' font-weight='400' fill='#17212B'>executed</text>
+<polyline points='790,505 810,505' fill='none' stroke='#475569' stroke-width='4' marker-end='url(#arrow)'/>
+<rect x='810' y='230' width='365' height='550' fill='#F8FAFC' stroke='#334155' stroke-width='3'/>
+<text x='830' y='283' font-family='Segoe UI,Arial,sans-serif' font-size='35' font-weight='700' fill='#334155'>State / feedback</text>
+<text x='830' y='376' font-family='Segoe UI,Arial,sans-serif' font-size='34' font-weight='400' fill='#17212B'>8 Gold / no Katana</text>
+<text x='830' y='419.520000457764' font-family='Segoe UI,Arial,sans-serif' font-size='34' font-weight='400' fill='#17212B'>Before = after</text>
+<text x='830' y='463.040000915527' font-family='Segoe UI,Arial,sans-serif' font-size='34' font-weight='400' fill='#17212B'>Action not executed</text>
+<polyline points='1175,505 1195,505' fill='none' stroke='#475569' stroke-width='4' marker-end='url(#arrow)'/>
+<rect x='1195' y='230' width='365' height='550' fill='#F8FAFC' stroke='#334155' stroke-width='3'/>
+<text x='1215' y='283' font-family='Segoe UI,Arial,sans-serif' font-size='35' font-weight='700' fill='#334155'>Next reply</text>
+<text x='1215' y='376' font-family='Segoe UI,Arial,sans-serif' font-size='34' font-weight='400' fill='#17212B'>Do I own the</text>
+<text x='1215' y='419.520000457764' font-family='Segoe UI,Arial,sans-serif' font-size='34' font-weight='400' fill='#17212B'>Katana now?</text>
+<text x='1215' y='463.040000915527' font-family='Segoe UI,Arial,sans-serif' font-size='34' font-weight='400' fill='#17212B'>&quot;No, you do not.&quot;</text>
+<text x='1215' y='506.560001373291' font-family='Segoe UI,Arial,sans-serif' font-size='34' font-weight='400' fill='#17212B'>action: none</text>
+<text x='40' y='842' font-family='Segoe UI,Arial,sans-serif' font-size='27' font-weight='400' fill='#334155'>Source: E4 sale cancellation and the next Merchant conversation</text>
+<text x='40' y='928' font-family='Segoe UI,Arial,sans-serif' font-size='25' font-weight='400' fill='#475569'>The ownership reply agrees with the unchanged inventory after cancellation.</text>
+</svg>

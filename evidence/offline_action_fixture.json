@@ -1,0 +1,15 @@
+{
+  "category": "minimised supplied-action fixture derived from natural E3 observations",
+  "limitation": "Replayed under counterfactual state; not Qwen action-selection evidence at those states",
+  "personal_or_sql_identifiers_included": false,
+  "actions": {
+    "sell_katana": {
+      "action": "sell_katana",
+      "response": "I see you have the means. Here is your katana."
+    },
+    "open_door": {
+      "action": "open_door",
+      "response": "You have the blade, but your words are weak. Show me your resolve, not just your noise. The door opens for those who can back their claims. Step inside."
+    }
+  }
+}

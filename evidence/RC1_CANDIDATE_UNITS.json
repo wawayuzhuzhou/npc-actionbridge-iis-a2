@@ -1,0 +1,23 @@
+{
+  "category": "existing offline mocked unit checks",
+  "started_utc": "2026-11-24T16:01:42.736563+00:00",
+  "ended_utc": "2026-11-24T16:01:51.840147+00:00",
+  "status": "PASS",
+  "tests_run": 46,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "socket_guard": {
+    "blocked_operations": 0,
+    "loopback_connects": 52,
+    "loopback_ephemeral_binds": 53
+  },
+  "credential_variables_removed_in_guard": 0,
+  "credentials_also_removed_by_parent_process": true,
+  "provider_requests": 0,
+  "provider_count_basis": "inspected mocks and process-scoped socket denial; no independent provider meter",
+  "limits": [
+    "No index build, live provider, live HTTP listener or historical SQLite connection",
+    "Loopback ephemeral sockets are permitted for Windows asyncio wakeups"
+  ]
+}

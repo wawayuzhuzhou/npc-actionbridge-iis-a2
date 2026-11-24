@@ -1,0 +1,415 @@
+{
+  "policy": "Only these exact files; default exclude all others",
+  "file_count": 81,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "scope": "original_code_MIT",
+      "reason": "Original code/configuration under the authorised MIT grant; third-party fragments retain their own terms"
+    },
+    {
+      "path": ".gitignore",
+      "scope": "original_code_MIT",
+      "reason": "Original code/configuration under the authorised MIT grant; third-party fragments retain their own terms"
+    },
+    {
+      "path": "LICENCE_SCOPE.json",
+      "scope": "documentation_diagrams_data_evidence_excluded_from_code_grant",
+      "reason": "Included for inspection; report, SVG, fixture/model text, data, results, metadata and package declarations are outside the original-code MIT grant"
+    },
+    {
+      "path": "LICENSE",
+      "scope": "licence_notice_for_scoped_original_grant",
+      "reason": "Standard MIT terms and explicit original-software scope; does not expand the grant to other material"
+    },
+    {
+      "path": "LICENSE_STATUS.md",
+      "scope": "documentation_diagrams_data_evidence_excluded_from_code_grant",
+      "reason": "Included for inspection; report, SVG, fixture/model text, data, results, metadata and package declarations are outside the original-code MIT grant"
+    },
+    {
+      "path": "README.md",
+      "scope": "documentation_diagrams_data_evidence_excluded_from_code_grant",
+      "reason": "Included for inspection; report, SVG, fixture/model text, data, results, metadata and package declarations are outside the original-code MIT grant"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "scope": "documentation_diagrams_data_evidence_excluded_from_code_grant",
+      "reason": "Included for inspection; report, SVG, fixture/model text, data, results, metadata and package declarations are outside the original-code MIT grant"
+    },
+    {
+      "path": "adapter/__init__.py",
+      "scope": "original_code_MIT",
+      "reason": "Original code/configuration under the authorised MIT grant; third-party fragments retain their own terms"
+    },
+    {
+      "path": "adapter/actionbridge/__init__.py",
+      "scope": "original_code_MIT",
+      "reason": "Original code/configuration under the authorised MIT grant; third-party fragments retain their own terms"
+    },
+    {
+      "path": "adapter/actionbridge/api.py",
+      "scope": "original_code_MIT",
+      "reason": "Original code/configuration under the authorised MIT grant; third-party fragments retain their own terms"
+    },
+    {
+      "path": "adapter/actionbridge/godot/ActionBridge.gd",
+      "scope": "original_code_MIT",
+      "reason": "Original code/configuration under the authorised MIT grant; third-party fragments retain their own terms"
+    },
+    {
+      "path": "adapter/actionbridge/godot/ActionBridgeUI.gd",
+      "scope": "original_code_MIT",
+      "reason": "Original code/configuration under the authorised MIT grant; third-party fragments retain their own terms"
+    },
+    {
+      "path": "adapter/actionbridge/godot/offline_checks.gd",
+      "scope": "original_code_MIT",
+      "reason": "Original code/configuration under the authorised MIT grant; third-party fragments retain their own terms"
+    },
+    {
+      "path": "adapter/actionbridge/prepare_runtime.py",
+      "scope": "mixed_upstream_MIT_and_original_additions",
+      "reason": "Original additions under the authorised MIT grant; upstream portions retain the upstream MIT notice"
+    },
+    {
+      "path": "adapter/actionbridge/run.py",
+      "scope": "original_code_MIT",
+      "reason": "Original code/configuration under the authorised MIT grant; third-party fragments retain their own terms"
+    },
+    {
+      "path": "adapter/actionbridge/store.py",
+      "scope": "original_code_MIT",
+      "reason": "Original code/configuration under the authorised MIT grant; third-party fragments retain their own terms"
+    },
+    {
+      "path": "adapter/qwen_baseline/README.md",
+      "scope": "documentation_diagrams_data_evidence_excluded_from_code_grant",
+      "reason": "Included for inspection; report, SVG, fixture/model text, data, results, metadata and package declarations are outside the original-code MIT grant"
+    },
+    {
+      "path": "adapter/qwen_baseline/__init__.py",
+      "scope": "original_code_MIT",
+      "reason": "Original code/configuration under the authorised MIT grant; third-party fragments retain their own terms"
+    },
+    {
+      "path": "adapter/qwen_baseline/backend.py",
+      "scope": "original_code_MIT",
+      "reason": "Original code/configuration under the authorised MIT grant; third-party fragments retain their own terms"
+    },
+    {
+      "path": "adapter/qwen_baseline/config.py",
+      "scope": "original_code_MIT",
+      "reason": "Original code/configuration under the authorised MIT grant; third-party fragments retain their own terms"
+    },
+    {
+      "path": "adapter/qwen_baseline/contract.py",
+      "scope": "mixed_upstream_MIT_and_original_additions",
+      "reason": "Original additions under the authorised MIT grant; upstream portions retain the upstream MIT notice"
+    },
+    {
+      "path": "adapter/qwen_baseline/embedding_probe.py",
+      "scope": "original_code_MIT",
+      "reason": "Original code/configuration under the authorised MIT grant; third-party fragments retain their own terms"
+    },
+    {
+      "path": "adapter/qwen_baseline/fastapi_app.py",
+      "scope": "mixed_upstream_MIT_and_original_additions",
+      "reason": "Original additions under the authorised MIT grant; upstream portions retain the upstream MIT notice"
+    },
+    {
+      "path": "adapter/qwen_baseline/merchant_probe.py",
+      "scope": "original_code_MIT",
+      "reason": "Original code/configuration under the authorised MIT grant; third-party fragments retain their own terms"
+    },
+    {
+      "path": "adapter/qwen_baseline/prompt.py",
+      "scope": "mixed_upstream_MIT_and_original_additions",
+      "reason": "Original additions under the authorised MIT grant; upstream portions retain the upstream MIT notice"
+    },
+    {
+      "path": "adapter/qwen_baseline/rag_probe.py",
+      "scope": "original_code_MIT",
+      "reason": "Original code/configuration under the authorised MIT grant; third-party fragments retain their own terms"
+    },
+    {
+      "path": "adapter/qwen_baseline/retrieval.py",
+      "scope": "original_code_MIT",
+      "reason": "Original code/configuration under the authorised MIT grant; third-party fragments retain their own terms"
+    },
+    {
+      "path": "adapter/qwen_baseline/run.py",
+      "scope": "original_code_MIT",
+      "reason": "Original code/configuration under the authorised MIT grant; third-party fragments retain their own terms"
+    },
+    {
+      "path": "adapter/qwen_baseline/world_facts.txt",
+      "scope": "upstream_MIT_retained_data",
+      "reason": "Upstream world-fact data; retain upstream MIT. Excluded from the proposed grant for original code."
+    },
+    {
+      "path": "adapter/tests/__init__.py",
+      "scope": "original_code_MIT",
+      "reason": "Original code/configuration under the authorised MIT grant; third-party fragments retain their own terms"
+    },
+    {
+      "path": "adapter/tests/test_actionbridge.py",
+      "scope": "original_code_MIT",
+      "reason": "Original code/configuration under the authorised MIT grant; third-party fragments retain their own terms"
+    },
+    {
+      "path": "adapter/tests/test_qwen_baseline.py",
+      "scope": "mixed_upstream_MIT_and_original_additions",
+      "reason": "Original additions under the authorised MIT grant; upstream portions retain the upstream MIT notice"
+    },
+    {
+      "path": "adapter/tests/test_qwen_chat_transport.py",
+      "scope": "original_code_MIT",
+      "reason": "Original code/configuration under the authorised MIT grant; third-party fragments retain their own terms"
+    },
+    {
+      "path": "adapter/tests/test_qwen_merchant_probe.py",
+      "scope": "original_code_MIT",
+      "reason": "Original code/configuration under the authorised MIT grant; third-party fragments retain their own terms"
+    },
+    {
+      "path": "adapter/tests/test_qwen_preflight.py",
+      "scope": "original_code_MIT",
+      "reason": "Original code/configuration under the authorised MIT grant; third-party fragments retain their own terms"
+    },
+    {
+      "path": "adapter/tests/test_qwen_rag_probe.py",
+      "scope": "original_code_MIT",
+      "reason": "Original code/configuration under the authorised MIT grant; third-party fragments retain their own terms"
+    },
+    {
+      "path": "adapter/tests/test_qwen_runtime.py",
+      "scope": "original_code_MIT",
+      "reason": "Original code/configuration under the authorised MIT grant; third-party fragments retain their own terms"
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "scope": "documentation_diagrams_data_evidence_excluded_from_code_grant",
+      "reason": "Included for inspection; report, SVG, fixture/model text, data, results, metadata and package declarations are outside the original-code MIT grant"
+    },
+    {
+      "path": "docs/CONTRIBUTIONS_AI.md",
+      "scope": "documentation_diagrams_data_evidence_excluded_from_code_grant",
+      "reason": "Included for inspection; report, SVG, fixture/model text, data, results, metadata and package declarations are outside the original-code MIT grant"
+    },
+    {
+      "path": "docs/EXTERNAL_ASSETS.md",
+      "scope": "documentation_diagrams_data_evidence_excluded_from_code_grant",
+      "reason": "Included for inspection; report, SVG, fixture/model text, data, results, metadata and package declarations are outside the original-code MIT grant"
+    },
+    {
+      "path": "docs/INTERACTIONS_TEXT.md",
+      "scope": "documentation_diagrams_data_evidence_excluded_from_code_grant",
+      "reason": "Included for inspection; report, SVG, fixture/model text, data, results, metadata and package declarations are outside the original-code MIT grant"
+    },
+    {
+      "path": "docs/LICENCE_SCOPE.md",
+      "scope": "documentation_diagrams_data_evidence_excluded_from_code_grant",
+      "reason": "Included for inspection; report, SVG, fixture/model text, data, results, metadata and package declarations are outside the original-code MIT grant"
+    },
+    {
+      "path": "docs/REPRODUCTION.md",
+      "scope": "documentation_diagrams_data_evidence_excluded_from_code_grant",
+      "reason": "Included for inspection; report, SVG, fixture/model text, data, results, metadata and package declarations are outside the original-code MIT grant"
+    },
+    {
+      "path": "evidence/RC1_CANDIDATE_INTEGRATION.json",
+      "scope": "documentation_diagrams_data_evidence_excluded_from_code_grant",
+      "reason": "Included for inspection; report, SVG, fixture/model text, data, results, metadata and package declarations are outside the original-code MIT grant"
+    },
+    {
+      "path": "evidence/RC1_CANDIDATE_UNITS.json",
+      "scope": "documentation_diagrams_data_evidence_excluded_from_code_grant",
+      "reason": "Included for inspection; report, SVG, fixture/model text, data, results, metadata and package declarations are outside the original-code MIT grant"
+    },
+    {
+      "path": "evidence/RC1_PREPARATION.json",
+      "scope": "documentation_diagrams_data_evidence_excluded_from_code_grant",
+      "reason": "Included for inspection; report, SVG, fixture/model text, data, results, metadata and package declarations are outside the original-code MIT grant"
+    },
+    {
+      "path": "evidence/REPRODUCTION_STATUS.md",
+      "scope": "documentation_diagrams_data_evidence_excluded_from_code_grant",
+      "reason": "Included for inspection; report, SVG, fixture/model text, data, results, metadata and package declarations are outside the original-code MIT grant"
+    },
+    {
+      "path": "evidence/SUMMARY.md",
+      "scope": "documentation_diagrams_data_evidence_excluded_from_code_grant",
+      "reason": "Included for inspection; report, SVG, fixture/model text, data, results, metadata and package declarations are outside the original-code MIT grant"
+    },
+    {
+      "path": "evidence/offline_action_fixture.json",
+      "scope": "documentation_diagrams_data_evidence_excluded_from_code_grant",
+      "reason": "Included for inspection; report, SVG, fixture/model text, data, results, metadata and package declarations are outside the original-code MIT grant"
+    },
+    {
+      "path": "evidence/reproduction_summary.json",
+      "scope": "documentation_diagrams_data_evidence_excluded_from_code_grant",
+      "reason": "Included for inspection; report, SVG, fixture/model text, data, results, metadata and package declarations are outside the original-code MIT grant"
+    },
+    {
+      "path": "evidence/requirements-reproduced.txt",
+      "scope": "documentation_diagrams_data_evidence_excluded_from_code_grant",
+      "reason": "Included for inspection; report, SVG, fixture/model text, data, results, metadata and package declarations are outside the original-code MIT grant"
+    },
+    {
+      "path": "figures/architecture.svg",
+      "scope": "documentation_diagrams_data_evidence_excluded_from_code_grant",
+      "reason": "Included for inspection; report, SVG, fixture/model text, data, results, metadata and package declarations are outside the original-code MIT grant"
+    },
+    {
+      "path": "figures/storyboard_01_g1.svg",
+      "scope": "documentation_diagrams_data_evidence_excluded_from_code_grant",
+      "reason": "Included for inspection; report, SVG, fixture/model text, data, results, metadata and package declarations are outside the original-code MIT grant"
+    },
+    {
+      "path": "figures/storyboard_02_cancellation.svg",
+      "scope": "documentation_diagrams_data_evidence_excluded_from_code_grant",
+      "reason": "Included for inspection; report, SVG, fixture/model text, data, results, metadata and package declarations are outside the original-code MIT grant"
+    },
+    {
+      "path": "figures/storyboard_03_progress.svg",
+      "scope": "documentation_diagrams_data_evidence_excluded_from_code_grant",
+      "reason": "Included for inspection; report, SVG, fixture/model text, data, results, metadata and package declarations are outside the original-code MIT grant"
+    },
+    {
+      "path": "notices/NINJA_ADVENTURE_CC0.txt",
+      "scope": "third_party_notice_or_inventory",
+      "reason": "Retain source notice and its own terms; not student original-code grant"
+    },
+    {
+      "path": "notices/NINJA_ADVENTURE_README.md",
+      "scope": "third_party_notice_or_inventory",
+      "reason": "Retain source notice and its own terms; not student original-code grant"
+    },
+    {
+      "path": "notices/UPSTREAM_MIT.txt",
+      "scope": "third_party_notice_or_inventory",
+      "reason": "Retain source notice and its own terms; not student original-code grant"
+    },
+    {
+      "path": "notices/source_notice_inventory.json",
+      "scope": "third_party_notice_or_inventory",
+      "reason": "Retain source notice and its own terms; not student original-code grant"
+    },
+    {
+      "path": "phase2/evaluation/budget_guard.py",
+      "scope": "original_code_MIT",
+      "reason": "Original code/configuration under the authorised MIT grant; third-party fragments retain their own terms"
+    },
+    {
+      "path": "phase2/evaluation/guarded_components.py",
+      "scope": "original_code_MIT",
+      "reason": "Original code/configuration under the authorised MIT grant; third-party fragments retain their own terms"
+    },
+    {
+      "path": "phase2/evaluation/h_ui_01/fixture.gd",
+      "scope": "original_code_MIT",
+      "reason": "Original code/configuration under the authorised MIT grant; third-party fragments retain their own terms"
+    },
+    {
+      "path": "phase2/evaluation/h_ui_01/prepare.py",
+      "scope": "original_code_MIT",
+      "reason": "Original code/configuration under the authorised MIT grant; third-party fragments retain their own terms"
+    },
+    {
+      "path": "phase2/evaluation/matrix.json",
+      "scope": "documentation_diagrams_data_evidence_excluded_from_code_grant",
+      "reason": "Included for inspection; report, SVG, fixture/model text, data, results, metadata and package declarations are outside the original-code MIT grant"
+    },
+    {
+      "path": "phase2/evaluation/run_offline.py",
+      "scope": "original_code_MIT",
+      "reason": "Original code/configuration under the authorised MIT grant; third-party fragments retain their own terms"
+    },
+    {
+      "path": "phase2/evaluation/state_fixture.gd",
+      "scope": "original_code_MIT",
+      "reason": "Original code/configuration under the authorised MIT grant; third-party fragments retain their own terms"
+    },
+    {
+      "path": "phase2/evaluation/test_budget_guard.py",
+      "scope": "original_code_MIT",
+      "reason": "Original code/configuration under the authorised MIT grant; third-party fragments retain their own terms"
+    },
+    {
+      "path": "report/REPORT_FINAL.md",
+      "scope": "documentation_diagrams_data_evidence_excluded_from_code_grant",
+      "reason": "Included for inspection; report, SVG, fixture/model text, data, results, metadata and package declarations are outside the original-code MIT grant"
+    },
+    {
+      "path": "requirements.txt",
+      "scope": "documentation_diagrams_data_evidence_excluded_from_code_grant",
+      "reason": "Included for inspection; report, SVG, fixture/model text, data, results, metadata and package declarations are outside the original-code MIT grant"
+    },
+    {
+      "path": "review/README.md",
+      "scope": "documentation_diagrams_data_evidence_excluded_from_code_grant",
+      "reason": "Included for inspection; report, SVG, fixture/model text, data, results, metadata and package declarations are outside the original-code MIT grant"
+    },
+    {
+      "path": "review/candidate.sha256",
+      "scope": "documentation_diagrams_data_evidence_excluded_from_code_grant",
+      "reason": "Included for inspection; report, SVG, fixture/model text, data, results, metadata and package declarations are outside the original-code MIT grant"
+    },
+    {
+      "path": "review/exact_file_allowlist.json",
+      "scope": "documentation_diagrams_data_evidence_excluded_from_code_grant",
+      "reason": "Included for inspection; report, SVG, fixture/model text, data, results, metadata and package declarations are outside the original-code MIT grant"
+    },
+    {
+      "path": "review/exclusion_manifest.json",
+      "scope": "documentation_diagrams_data_evidence_excluded_from_code_grant",
+      "reason": "Included for inspection; report, SVG, fixture/model text, data, results, metadata and package declarations are outside the original-code MIT grant"
+    },
+    {
+      "path": "review/hud_case_only.patch",
+      "scope": "original_code_MIT",
+      "reason": "Original code/configuration under the authorised MIT grant; third-party fragments retain their own terms"
+    },
+    {
+      "path": "review/privacy_metadata_scan.json",
+      "scope": "documentation_diagrams_data_evidence_excluded_from_code_grant",
+      "reason": "Included for inspection; report, SVG, fixture/model text, data, results, metadata and package declarations are outside the original-code MIT grant"
+    },
+    {
+      "path": "review/source_copy_deltas.json",
+      "scope": "documentation_diagrams_data_evidence_excluded_from_code_grant",
+      "reason": "Included for inspection; report, SVG, fixture/model text, data, results, metadata and package declarations are outside the original-code MIT grant"
+    },
+    {
+      "path": "review/source_validation.json",
+      "scope": "documentation_diagrams_data_evidence_excluded_from_code_grant",
+      "reason": "Included for inspection; report, SVG, fixture/model text, data, results, metadata and package declarations are outside the original-code MIT grant"
+    },
+    {
+      "path": "review/tested_code.sha256",
+      "scope": "documentation_diagrams_data_evidence_excluded_from_code_grant",
+      "reason": "Included for inspection; report, SVG, fixture/model text, data, results, metadata and package declarations are outside the original-code MIT grant"
+    },
+    {
+      "path": "tools/offline_unit_guard.py",
+      "scope": "original_code_MIT",
+      "reason": "Original code/configuration under the authorised MIT grant; third-party fragments retain their own terms"
+    },
+    {
+      "path": "tools/prepare_import_order.py",
+      "scope": "original_code_MIT",
+      "reason": "Original code/configuration under the authorised MIT grant; third-party fragments retain their own terms"
+    },
+    {
+      "path": "tools/verify_snapshot.py",
+      "scope": "original_code_MIT",
+      "reason": "Original code/configuration under the authorised MIT grant; third-party fragments retain their own terms"
+    }
+  ],
+  "base_manifest_sha256": "50f1513e45d485a908e9cc1a381158246cf8565c99ee72f84765a3edc0338e21",
+  "licence_selected": true,
+  "publication_authorised": true,
+  "public_repository": "https://github.com/wawayuzhuzhou/npc-actionbridge-iis-a2"
+}

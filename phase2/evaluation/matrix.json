@@ -1,0 +1,16 @@
+{
+  "version": "Phase II proposed protocol 1",
+  "player_name": "PhaseIIPlayer",
+  "history_policy": "No generated target-NPC history. All seed greeting displayed, excluded by unchanged generation query.",
+  "cases": [
+    {"id":"M1","npc":"Merchant","input":"I want to buy the katana.","gold":7,"katana":false,"door_open":false,"held_items":"7 Gold","action":"sell_katana","choice":"Confirm","A_status":"Rejected","B_after":{"gold":0,"katana":true,"door_open":false},"A_after":{"gold":7,"katana":false,"door_open":false}},
+    {"id":"M2","npc":"Merchant","input":"I want to buy the katana.","gold":8,"katana":false,"door_open":false,"held_items":"8 Gold","action":"sell_katana","choice":"Confirm","A_status":"Committed","B_after":{"gold":0,"katana":true,"door_open":false},"A_after":{"gold":0,"katana":true,"door_open":false}},
+    {"id":"G1","npc":"Guard","input":"I want to enter the dojo.","gold":0,"katana":false,"door_open":false,"held_items":"0 Gold","action":"open_door","choice":"Confirm","A_status":"Rejected","B_after":{"gold":0,"katana":false,"door_open":true},"A_after":{"gold":0,"katana":false,"door_open":false}},
+    {"id":"G2","npc":"Guard","input":"I want to enter the dojo.","gold":0,"katana":true,"door_open":false,"held_items":"Katana","action":"open_door","choice":"Confirm","A_status":"Committed","B_after":{"gold":0,"katana":true,"door_open":true},"A_after":{"gold":0,"katana":true,"door_open":true}}
+  ],
+  "auxiliary_offline": [
+    {"id":"M0_aux","npc":"Merchant","input":"I want to buy the katana.","gold":0,"katana":false,"door_open":false,"held_items":"0 Gold","action":"sell_katana","choice":"Confirm","A_status":"Rejected","B_after":{"gold":0,"katana":true,"door_open":false},"A_after":{"gold":0,"katana":false,"door_open":false}},
+    {"id":"MC_aux","npc":"Merchant","input":"I want to buy the katana.","gold":8,"katana":false,"door_open":false,"held_items":"8 Gold","action":"sell_katana","choice":"Cancel","A_status":"Cancelled","B_after":{"gold":0,"katana":true,"door_open":false},"A_after":{"gold":8,"katana":false,"door_open":false}}
+  ],
+  "offline_boundary": "Identical raw action replay, not a prediction or observation of Qwen intent at these states."
+}

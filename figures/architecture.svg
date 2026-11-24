@@ -1,0 +1,84 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='1600' height='1540' viewBox='0 0 1600 1540'>
+<defs><marker id='arrow' viewBox='0 0 10 10' refX='9' refY='5' markerWidth='9' markerHeight='9' orient='auto-start-reverse'><path d='M 0 0 L 10 5 L 0 10 z' fill='#475569'/></marker></defs><rect width='1600' height='1540' fill='white'/>
+<text x='40' y='73' font-family='Segoe UI,Arial,sans-serif' font-size='48' font-weight='700' fill='#000000'>ActionBridge control flow</text>
+<text x='40' y='115' font-family='Segoe UI,Arial,sans-serif' font-size='28' font-weight='400' fill='#334155'>Frozen v1 | Separate B/A databases | Trusted single-player Godot state</text>
+<rect x='40' y='155' width='420' height='225' fill='#F8FAFC' stroke='#334155' stroke-width='3'/>
+<text x='60' y='208' font-family='Segoe UI,Arial,sans-serif' font-size='35' font-weight='700' fill='#334155'>Dialogue UI</text>
+<text x='60' y='299' font-family='Segoe UI,Arial,sans-serif' font-size='32' font-weight='400' fill='#17212B'>Player text</text>
+<text x='60' y='339.959999084473' font-family='Segoe UI,Arial,sans-serif' font-size='32' font-weight='400' fill='#17212B'>Held-items string</text>
+<rect x='590' y='155' width='420' height='225' fill='#F8FAFC' stroke='#334155' stroke-width='3'/>
+<text x='610' y='208' font-family='Segoe UI,Arial,sans-serif' font-size='35' font-weight='700' fill='#334155'>FastAPI and RAG</text>
+<text x='610' y='299' font-family='Segoe UI,Arial,sans-serif' font-size='32' font-weight='400' fill='#17212B'>NPC + history</text>
+<text x='610' y='339.959999084473' font-family='Segoe UI,Arial,sans-serif' font-size='32' font-weight='400' fill='#17212B'>FAISS Top-5 facts</text>
+<rect x='1140' y='155' width='420' height='225' fill='#F8FAFC' stroke='#334155' stroke-width='3'/>
+<text x='1160' y='208' font-family='Segoe UI,Arial,sans-serif' font-size='35' font-weight='700' fill='#334155'>Qwen output</text>
+<text x='1160' y='299' font-family='Segoe UI,Arial,sans-serif' font-size='32' font-weight='400' fill='#17212B'>Structured action</text>
+<text x='1160' y='339.959999084473' font-family='Segoe UI,Arial,sans-serif' font-size='32' font-weight='400' fill='#17212B'>and dialogue</text>
+<polyline points='460,267 590,267' fill='none' stroke='#475569' stroke-width='4' marker-end='url(#arrow)'/>
+<polyline points='1010,267 1140,267' fill='none' stroke='#475569' stroke-width='4' marker-end='url(#arrow)'/>
+<text x='40' y='474' font-family='Segoe UI,Arial,sans-serif' font-size='39' font-weight='700' fill='#334155'>B Immediate-dispatch path</text>
+<rect x='40' y='510' width='420' height='225' fill='#F8FAFC' stroke='#334155' stroke-width='3'/>
+<text x='60' y='563' font-family='Segoe UI,Arial,sans-serif' font-size='35' font-weight='700' fill='#334155'>Stored B reply</text>
+<text x='60' y='654' font-family='Segoe UI,Arial,sans-serif' font-size='32' font-weight='400' fill='#17212B'>Raw conversation</text>
+<text x='60' y='694.959999084473' font-family='Segoe UI,Arial,sans-serif' font-size='32' font-weight='400' fill='#17212B'>Action returned</text>
+<rect x='590' y='510' width='420' height='225' fill='#F8FAFC' stroke='#334155' stroke-width='3'/>
+<text x='610' y='563' font-family='Segoe UI,Arial,sans-serif' font-size='35' font-weight='700' fill='#334155'>Immediate dispatch</text>
+<text x='610' y='654' font-family='Segoe UI,Arial,sans-serif' font-size='32' font-weight='400' fill='#17212B'>Original Godot</text>
+<text x='610' y='694.959999084473' font-family='Segoe UI,Arial,sans-serif' font-size='32' font-weight='400' fill='#17212B'>action handler</text>
+<rect x='1140' y='510' width='420' height='225' fill='#F8FAFC' stroke='#334155' stroke-width='3'/>
+<text x='1160' y='563' font-family='Segoe UI,Arial,sans-serif' font-size='35' font-weight='700' fill='#334155'>Local game state</text>
+<text x='1160' y='654' font-family='Segoe UI,Arial,sans-serif' font-size='32' font-weight='400' fill='#17212B'>Gold / Katana</text>
+<text x='1160' y='694.959999084473' font-family='Segoe UI,Arial,sans-serif' font-size='32' font-weight='400' fill='#17212B'>Dojo door</text>
+<polyline points='1350,380 1350,405 10,405 10,622 40,622' fill='none' stroke='#475569' stroke-width='4' marker-end='url(#arrow)'/>
+<polyline points='460,622 590,622' fill='none' stroke='#475569' stroke-width='4' marker-end='url(#arrow)'/>
+<polyline points='1010,622 1140,622' fill='none' stroke='#475569' stroke-width='4' marker-end='url(#arrow)'/>
+<text x='40' y='829' font-family='Segoe UI,Arial,sans-serif' font-size='39' font-weight='700' fill='#1E4976'>A Proposal and player-control path</text>
+<rect x='40' y='875' width='260' height='260' fill='#F8FAFC' stroke='#1E4976' stroke-width='3'/>
+<text x='60' y='928' font-family='Segoe UI,Arial,sans-serif' font-size='35' font-weight='700' fill='#1E4976'>A action</text>
+<text x='60' y='972.799999237061' font-family='Segoe UI,Arial,sans-serif' font-size='35' font-weight='700' fill='#1E4976'>branch</text>
+<text x='60' y='1019' font-family='Segoe UI,Arial,sans-serif' font-size='32' font-weight='400' fill='#17212B'>none: reply</text>
+<text x='60' y='1059.95999908447' font-family='Segoe UI,Arial,sans-serif' font-size='32' font-weight='400' fill='#17212B'>else: raw</text>
+<text x='60' y='1100.91999816895' font-family='Segoe UI,Arial,sans-serif' font-size='32' font-weight='400' fill='#17212B'>retained</text>
+<rect x='430' y='875' width='300' height='260' fill='#F8FAFC' stroke='#1E4976' stroke-width='3'/>
+<text x='450' y='928' font-family='Segoe UI,Arial,sans-serif' font-size='35' font-weight='700' fill='#1E4976'>Local</text>
+<text x='450' y='972.799999237061' font-family='Segoe UI,Arial,sans-serif' font-size='35' font-weight='700' fill='#1E4976'>validation</text>
+<text x='450' y='1019' font-family='Segoe UI,Arial,sans-serif' font-size='32' font-weight='400' fill='#17212B'>Gold / Katana</text>
+<text x='450' y='1059.95999908447' font-family='Segoe UI,Arial,sans-serif' font-size='32' font-weight='400' fill='#17212B'>Door / NPC</text>
+<rect x='800' y='875' width='300' height='260' fill='#F8FAFC' stroke='#1E4976' stroke-width='3'/>
+<text x='820' y='928' font-family='Segoe UI,Arial,sans-serif' font-size='35' font-weight='700' fill='#1E4976'>Player choice</text>
+<text x='820' y='1019' font-family='Segoe UI,Arial,sans-serif' font-size='32' font-weight='400' fill='#17212B'>Confirm</text>
+<text x='820' y='1059.95999908447' font-family='Segoe UI,Arial,sans-serif' font-size='32' font-weight='400' fill='#17212B'>or Cancel</text>
+<rect x='1170' y='875' width='390' height='260' fill='#F8FAFC' stroke='#1E4976' stroke-width='3'/>
+<text x='1190' y='928' font-family='Segoe UI,Arial,sans-serif' font-size='35' font-weight='700' fill='#1E4976'>Confirm path</text>
+<text x='1190' y='1019' font-family='Segoe UI,Arial,sans-serif' font-size='32' font-weight='400' fill='#17212B'>Recheck state</text>
+<text x='1190' y='1059.95999908447' font-family='Segoe UI,Arial,sans-serif' font-size='32' font-weight='400' fill='#17212B'>Execute</text>
+<text x='1190' y='1100.91999816895' font-family='Segoe UI,Arial,sans-serif' font-size='32' font-weight='400' fill='#17212B'>Verify outcome</text>
+<polyline points='1560,267 1585,267 1585,765 10,765 10,1005 40,1005' fill='none' stroke='#475569' stroke-width='4' marker-end='url(#arrow)'/>
+<polyline points='300,1005 430,1005' fill='none' stroke='#475569' stroke-width='4' marker-end='url(#arrow)'/>
+<polyline points='730,1005 800,1005' fill='none' stroke='#475569' stroke-width='4' marker-end='url(#arrow)'/>
+<polyline points='1100,1005 1170,1005' fill='none' stroke='#475569' stroke-width='4' marker-end='url(#arrow)'/>
+<text x='303' y='989' font-family='Segoe UI,Arial,sans-serif' font-size='25' font-weight='400' fill='#1E4976'>proposal</text>
+<text x='735' y='987' font-family='Segoe UI,Arial,sans-serif' font-size='23' font-weight='400' fill='#1E4976'>valid</text>
+<rect x='40' y='1240' width='320' height='230' fill='#F8FAFC' stroke='#475569' stroke-width='3'/>
+<text x='60' y='1293' font-family='Segoe UI,Arial,sans-serif' font-size='35' font-weight='700' fill='#475569'>Ordinary reply</text>
+<text x='60' y='1384' font-family='Segoe UI,Arial,sans-serif' font-size='32' font-weight='400' fill='#17212B'>No modal</text>
+<text x='60' y='1424.95999908447' font-family='Segoe UI,Arial,sans-serif' font-size='32' font-weight='400' fill='#17212B'>A conversation</text>
+<rect x='470' y='1240' width='350' height='230' fill='#F8FAFC' stroke='#1E4976' stroke-width='3'/>
+<text x='490' y='1293' font-family='Segoe UI,Arial,sans-serif' font-size='35' font-weight='700' fill='#1E4976'>Outcome report</text>
+<text x='490' y='1384' font-family='Segoe UI,Arial,sans-serif' font-size='32' font-weight='400' fill='#17212B'>Status + snapshots</text>
+<rect x='980' y='1240' width='580' height='230' fill='#F8FAFC' stroke='#1E4976' stroke-width='3'/>
+<text x='1000' y='1293' font-family='Segoe UI,Arial,sans-serif' font-size='35' font-weight='700' fill='#1E4976'>A SQLite and feedback</text>
+<text x='1000' y='1384' font-family='Segoe UI,Arial,sans-serif' font-size='32' font-weight='400' fill='#17212B'>Atomic proposal + history update</text>
+<text x='1000' y='1424.95999908447' font-family='Segoe UI,Arial,sans-serif' font-size='32' font-weight='400' fill='#17212B'>Factual feedback to dialogue UI</text>
+<polyline points='200,1135 200,1240' fill='none' stroke='#475569' stroke-width='4' marker-end='url(#arrow)'/>
+<text x='220' y='1197' font-family='Segoe UI,Arial,sans-serif' font-size='27' font-weight='400' fill='#475569'>none</text>
+<polyline points='580,1135 580,1190' fill='none' stroke='#475569' stroke-width='4' />
+<text x='435' y='1182' font-family='Segoe UI,Arial,sans-serif' font-size='27' font-weight='400' fill='#475569'>invalid</text>
+<polyline points='950,1135 950,1190' fill='none' stroke='#475569' stroke-width='4' />
+<text x='805' y='1182' font-family='Segoe UI,Arial,sans-serif' font-size='27' font-weight='400' fill='#475569'>Cancel</text>
+<polyline points='1365,1135 1365,1190' fill='none' stroke='#475569' stroke-width='4' />
+<polyline points='580,1190 1365,1190' fill='none' stroke='#475569' stroke-width='4' />
+<polyline points='645,1190 645,1240' fill='none' stroke='#475569' stroke-width='4' marker-end='url(#arrow)'/>
+<polyline points='820,1355 980,1355' fill='none' stroke='#475569' stroke-width='4' marker-end='url(#arrow)'/>
+<text x='40' y='1516' font-family='Segoe UI,Arial,sans-serif' font-size='26' font-weight='400' fill='#334155'>Persisted factual history supplies the next generation. Save retry does not repeat execution or Qwen.</text>
+</svg>

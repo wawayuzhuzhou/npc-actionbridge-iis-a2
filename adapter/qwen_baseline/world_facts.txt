@@ -1,0 +1,12 @@
+The village is small, surrounded by the ocean and a dense forest, with a single dirt road leading in and out.
+The dojo is located in the north-west at the village’s edge, its wooden gates closed to outsiders.
+The player wants to be admitted to the dojo to become a ninja.
+The dojo is a place of discipline and secrecy, training only the most determined students.
+In order to be admitted to the dojo, one must bring a katana and strong willpower.
+The player starts with no gold and must find a way to earn it.
+Gold coins can be found scattered around the village.
+The village has a shop, a dojo, and the home of the player.
+The merchant can be found in the shop.
+The merchant will sell a katana for 8 gold.
+The shop sells various goods, but the only item the player can buy is a katana.
+The player’s home is a small wooden house with a thatched roof, where they and their Mother live.

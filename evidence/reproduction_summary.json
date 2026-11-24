@@ -1,0 +1,19 @@
+{
+  "base": "accepted v0.3; retained original failures",
+  "candidate": "RC1",
+  "old_imports": {
+    "exit_codes": [
+      3221225477,
+      3221225477
+    ],
+    "B_fixture_ERROR_lines": 270,
+    "native_cause": "unknown"
+  },
+  "engine_preparation": "PASS, one round/three new-cache imports, no errors/warnings",
+  "candidate_units": "PASS 46",
+  "candidate_integration": "PASS six pairs/twelve executions; no errors/warnings",
+  "new_provider_requests": 0,
+  "real_GUI": "not tested",
+  "Linux_export": "not tested",
+  "Python": "reuse previously clean v03 Python3.11 environment; pip check passed"
+}

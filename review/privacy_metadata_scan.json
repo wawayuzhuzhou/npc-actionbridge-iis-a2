@@ -1,0 +1,375 @@
+{
+  "scope": "exact selected UTF-8 payload and review files; values never disclosed",
+  "patterns": [
+    "credential_token_literal",
+    "absolute_windows_path",
+    "private_user_directory",
+    "email_like",
+    "student_id_label",
+    "unreviewed_github_repository_locator"
+  ],
+  "scanned_files": [
+    ".gitattributes",
+    ".gitignore",
+    "adapter/__init__.py",
+    "adapter/actionbridge/__init__.py",
+    "adapter/actionbridge/api.py",
+    "adapter/actionbridge/godot/ActionBridge.gd",
+    "adapter/actionbridge/godot/ActionBridgeUI.gd",
+    "adapter/actionbridge/godot/offline_checks.gd",
+    "adapter/actionbridge/prepare_runtime.py",
+    "adapter/actionbridge/run.py",
+    "adapter/actionbridge/store.py",
+    "adapter/qwen_baseline/__init__.py",
+    "adapter/qwen_baseline/backend.py",
+    "adapter/qwen_baseline/config.py",
+    "adapter/qwen_baseline/contract.py",
+    "adapter/qwen_baseline/embedding_probe.py",
+    "adapter/qwen_baseline/fastapi_app.py",
+    "adapter/qwen_baseline/merchant_probe.py",
+    "adapter/qwen_baseline/prompt.py",
+    "adapter/qwen_baseline/rag_probe.py",
+    "adapter/qwen_baseline/README.md",
+    "adapter/qwen_baseline/retrieval.py",
+    "adapter/qwen_baseline/run.py",
+    "adapter/qwen_baseline/world_facts.txt",
+    "adapter/tests/__init__.py",
+    "adapter/tests/test_actionbridge.py",
+    "adapter/tests/test_qwen_baseline.py",
+    "adapter/tests/test_qwen_chat_transport.py",
+    "adapter/tests/test_qwen_merchant_probe.py",
+    "adapter/tests/test_qwen_preflight.py",
+    "adapter/tests/test_qwen_rag_probe.py",
+    "adapter/tests/test_qwen_runtime.py",
+    "docs/ARCHITECTURE.md",
+    "docs/CONTRIBUTIONS_AI.md",
+    "docs/EXTERNAL_ASSETS.md",
+    "docs/INTERACTIONS_TEXT.md",
+    "docs/LICENCE_SCOPE.md",
+    "docs/REPRODUCTION.md",
+    "evidence/offline_action_fixture.json",
+    "evidence/RC1_CANDIDATE_INTEGRATION.json",
+    "evidence/RC1_CANDIDATE_UNITS.json",
+    "evidence/RC1_PREPARATION.json",
+    "evidence/REPRODUCTION_STATUS.md",
+    "evidence/reproduction_summary.json",
+    "evidence/requirements-reproduced.txt",
+    "evidence/SUMMARY.md",
+    "figures/architecture.svg",
+    "figures/storyboard_01_g1.svg",
+    "figures/storyboard_02_cancellation.svg",
+    "figures/storyboard_03_progress.svg",
+    "LICENCE_SCOPE.json",
+    "LICENSE",
+    "LICENSE_STATUS.md",
+    "notices/NINJA_ADVENTURE_CC0.txt",
+    "notices/NINJA_ADVENTURE_README.md",
+    "notices/source_notice_inventory.json",
+    "notices/UPSTREAM_MIT.txt",
+    "phase2/evaluation/budget_guard.py",
+    "phase2/evaluation/guarded_components.py",
+    "phase2/evaluation/h_ui_01/fixture.gd",
+    "phase2/evaluation/h_ui_01/prepare.py",
+    "phase2/evaluation/matrix.json",
+    "phase2/evaluation/run_offline.py",
+    "phase2/evaluation/state_fixture.gd",
+    "phase2/evaluation/test_budget_guard.py",
+    "README.md",
+    "report/REPORT_FINAL.md",
+    "requirements.txt",
+    "review/exact_file_allowlist.json",
+    "review/exclusion_manifest.json",
+    "review/hud_case_only.patch",
+    "review/privacy_metadata_scan.json",
+    "review/README.md",
+    "review/source_copy_deltas.json",
+    "review/source_validation.json",
+    "review/tested_code.sha256",
+    "THIRD_PARTY_NOTICES.md",
+    "tools/offline_unit_guard.py",
+    "tools/prepare_import_order.py",
+    "tools/verify_snapshot.py"
+  ],
+  "findings": [],
+  "local_links": [
+    {
+      "source": "adapter/qwen_baseline/README.md",
+      "target": "../../docs/REPRODUCTION.md",
+      "exists_within_candidate": true
+    },
+    {
+      "source": "adapter/qwen_baseline/README.md",
+      "target": "../../notices/UPSTREAM_MIT.txt",
+      "exists_within_candidate": true
+    },
+    {
+      "source": "docs/ARCHITECTURE.md",
+      "target": "../adapter/qwen_baseline/fastapi_app.py",
+      "exists_within_candidate": true
+    },
+    {
+      "source": "docs/ARCHITECTURE.md",
+      "target": "../adapter/actionbridge/api.py",
+      "exists_within_candidate": true
+    },
+    {
+      "source": "docs/ARCHITECTURE.md",
+      "target": "../adapter/actionbridge/godot/ActionBridge.gd",
+      "exists_within_candidate": true
+    },
+    {
+      "source": "docs/ARCHITECTURE.md",
+      "target": "../adapter/actionbridge/godot/ActionBridgeUI.gd",
+      "exists_within_candidate": true
+    },
+    {
+      "source": "docs/ARCHITECTURE.md",
+      "target": "../adapter/actionbridge/store.py",
+      "exists_within_candidate": true
+    },
+    {
+      "source": "docs/CONTRIBUTIONS_AI.md",
+      "target": "../THIRD_PARTY_NOTICES.md",
+      "exists_within_candidate": true
+    },
+    {
+      "source": "docs/CONTRIBUTIONS_AI.md",
+      "target": "../evidence/SUMMARY.md",
+      "exists_within_candidate": true
+    },
+    {
+      "source": "docs/EXTERNAL_ASSETS.md",
+      "target": "REPRODUCTION.md",
+      "exists_within_candidate": true
+    },
+    {
+      "source": "docs/EXTERNAL_ASSETS.md",
+      "target": "../notices/source_notice_inventory.json",
+      "exists_within_candidate": true
+    },
+    {
+      "source": "docs/INTERACTIONS_TEXT.md",
+      "target": "../figures/storyboard_01_g1.svg",
+      "exists_within_candidate": true
+    },
+    {
+      "source": "docs/INTERACTIONS_TEXT.md",
+      "target": "../figures/storyboard_02_cancellation.svg",
+      "exists_within_candidate": true
+    },
+    {
+      "source": "docs/INTERACTIONS_TEXT.md",
+      "target": "../figures/storyboard_03_progress.svg",
+      "exists_within_candidate": true
+    },
+    {
+      "source": "docs/LICENCE_SCOPE.md",
+      "target": "../LICENCE_SCOPE.json",
+      "exists_within_candidate": true
+    },
+    {
+      "source": "docs/LICENCE_SCOPE.md",
+      "target": "../LICENSE",
+      "exists_within_candidate": true
+    },
+    {
+      "source": "docs/LICENCE_SCOPE.md",
+      "target": "CONTRIBUTIONS_AI.md",
+      "exists_within_candidate": true
+    },
+    {
+      "source": "docs/LICENCE_SCOPE.md",
+      "target": "../notices/UPSTREAM_MIT.txt",
+      "exists_within_candidate": true
+    },
+    {
+      "source": "docs/LICENCE_SCOPE.md",
+      "target": "../THIRD_PARTY_NOTICES.md",
+      "exists_within_candidate": true
+    },
+    {
+      "source": "docs/REPRODUCTION.md",
+      "target": "EXTERNAL_ASSETS.md",
+      "exists_within_candidate": true
+    },
+    {
+      "source": "docs/REPRODUCTION.md",
+      "target": "../evidence/REPRODUCTION_STATUS.md",
+      "exists_within_candidate": true
+    },
+    {
+      "source": "evidence/REPRODUCTION_STATUS.md",
+      "target": "RC1_PREPARATION.json",
+      "exists_within_candidate": true
+    },
+    {
+      "source": "evidence/REPRODUCTION_STATUS.md",
+      "target": "RC1_CANDIDATE_UNITS.json",
+      "exists_within_candidate": true
+    },
+    {
+      "source": "evidence/REPRODUCTION_STATUS.md",
+      "target": "RC1_CANDIDATE_INTEGRATION.json",
+      "exists_within_candidate": true
+    },
+    {
+      "source": "evidence/REPRODUCTION_STATUS.md",
+      "target": "../review/tested_code.sha256",
+      "exists_within_candidate": true
+    },
+    {
+      "source": "evidence/SUMMARY.md",
+      "target": "offline_action_fixture.json",
+      "exists_within_candidate": true
+    },
+    {
+      "source": "evidence/SUMMARY.md",
+      "target": "../phase2/evaluation/matrix.json",
+      "exists_within_candidate": true
+    },
+    {
+      "source": "evidence/SUMMARY.md",
+      "target": "../phase2/evaluation/state_fixture.gd",
+      "exists_within_candidate": true
+    },
+    {
+      "source": "LICENSE_STATUS.md",
+      "target": "LICENSE",
+      "exists_within_candidate": true
+    },
+    {
+      "source": "LICENSE_STATUS.md",
+      "target": "LICENCE_SCOPE.json",
+      "exists_within_candidate": true
+    },
+    {
+      "source": "LICENSE_STATUS.md",
+      "target": "docs/LICENCE_SCOPE.md",
+      "exists_within_candidate": true
+    },
+    {
+      "source": "LICENSE_STATUS.md",
+      "target": "notices/UPSTREAM_MIT.txt",
+      "exists_within_candidate": true
+    },
+    {
+      "source": "LICENSE_STATUS.md",
+      "target": "THIRD_PARTY_NOTICES.md",
+      "exists_within_candidate": true
+    },
+    {
+      "source": "README.md",
+      "target": "report/REPORT_FINAL.md",
+      "exists_within_candidate": true
+    },
+    {
+      "source": "README.md",
+      "target": "figures/architecture.svg",
+      "exists_within_candidate": true
+    },
+    {
+      "source": "README.md",
+      "target": "docs/ARCHITECTURE.md",
+      "exists_within_candidate": true
+    },
+    {
+      "source": "README.md",
+      "target": "evidence/SUMMARY.md",
+      "exists_within_candidate": true
+    },
+    {
+      "source": "README.md",
+      "target": "docs/INTERACTIONS_TEXT.md",
+      "exists_within_candidate": true
+    },
+    {
+      "source": "README.md",
+      "target": "docs/REPRODUCTION.md",
+      "exists_within_candidate": true
+    },
+    {
+      "source": "README.md",
+      "target": "docs/EXTERNAL_ASSETS.md",
+      "exists_within_candidate": true
+    },
+    {
+      "source": "README.md",
+      "target": "docs/CONTRIBUTIONS_AI.md",
+      "exists_within_candidate": true
+    },
+    {
+      "source": "README.md",
+      "target": "docs/LICENCE_SCOPE.md",
+      "exists_within_candidate": true
+    },
+    {
+      "source": "README.md",
+      "target": "LICENSE",
+      "exists_within_candidate": true
+    },
+    {
+      "source": "README.md",
+      "target": "THIRD_PARTY_NOTICES.md",
+      "exists_within_candidate": true
+    },
+    {
+      "source": "report/REPORT_FINAL.md",
+      "target": "../figures/architecture.svg",
+      "exists_within_candidate": true
+    },
+    {
+      "source": "report/REPORT_FINAL.md",
+      "target": "../docs/INTERACTIONS_TEXT.md",
+      "exists_within_candidate": true
+    },
+    {
+      "source": "THIRD_PARTY_NOTICES.md",
+      "target": "notices/UPSTREAM_MIT.txt",
+      "exists_within_candidate": true
+    },
+    {
+      "source": "THIRD_PARTY_NOTICES.md",
+      "target": "notices/NINJA_ADVENTURE_README.md",
+      "exists_within_candidate": true
+    },
+    {
+      "source": "THIRD_PARTY_NOTICES.md",
+      "target": "notices/NINJA_ADVENTURE_CC0.txt",
+      "exists_within_candidate": true
+    },
+    {
+      "source": "THIRD_PARTY_NOTICES.md",
+      "target": "notices/source_notice_inventory.json",
+      "exists_within_candidate": true
+    }
+  ],
+  "svg_checks": [
+    {
+      "path": "figures/architecture.svg",
+      "embedded_image_or_active_metadata": false
+    },
+    {
+      "path": "figures/storyboard_01_g1.svg",
+      "embedded_image_or_active_metadata": false
+    },
+    {
+      "path": "figures/storyboard_02_cancellation.svg",
+      "embedded_image_or_active_metadata": false
+    },
+    {
+      "path": "figures/storyboard_03_progress.svg",
+      "embedded_image_or_active_metadata": false
+    }
+  ],
+  "binary_document_metadata": "No PDF/DOCX/image/font/audio binaries included; no such metadata to inspect in snapshot",
+  "excluded_scope": [
+    "Private history, raw logs/database contents and image pixels are absent, not rescanned",
+    "External web link availability and rights were not certified by this local scan",
+    "Pattern checks are bounded and do not prove absence of all secrets or personal information"
+  ],
+  "status": "PASS",
+  "approved_repository_locators": [
+    "https://github.com/V-o-id/generative-npc-dialogue",
+    "https://github.com/wawayuzhuzhou/npc-actionbridge-iis-a2"
+  ]
+}

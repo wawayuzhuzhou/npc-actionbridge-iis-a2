@@ -1,0 +1,2 @@
+# Preserve the reviewed bytes and portable SHA256 manifest across clone platforms.
+* -text
