@@ -2,7 +2,7 @@
 
 IIS A2
 
-Main report including title, headings and Table 1: 1000 words. Abstract including heading: 184 words. Combined: 1184 words.
+Main report including title, headings and Table 1: 1024 words. Abstract including heading: 184 words. Combined: 1208 words.
 
 ## Abstract
 
@@ -36,7 +36,7 @@ Across the six pairs, SQLite stored rejected and cancelled proposals with none i
 
 The natural E3 and E4 walkthroughs demonstrate purchase and admission in B, and cancellation and successful progression in A (Figures 3-4). Their utterances and histories differ, so they are not a matched comparison. The matched live G1 pair used the same no-Katana request, empty target history and equal recorded retrieval/generation contexts. Both returned none with HTTP 200, leaving the doors closed (Figure 2).
 
-H-UI-01, a preset-state guided student GUI replay, shows the eight-Gold proposal, Cancel preserving inventory and Confirm producing zero Gold and a Katana (Figure 5). Its proposals are supplied locally, without model generation or API/SQLite saving. These images make the controls and their consequences visible. The deterministic scenarios evaluate execution behaviour under supplied actions, not Qwen's error frequency.
+H-UI-01 recorded Cancel retaining eight Gold and no Katana, followed by Confirm producing zero Gold and a Katana. H-UI-02 presents the same controls in the game's shop layout (Figure 5), with fixed Merchant lines selected from the outcome and original feedback retained in the log. Both are preset-state student-operated GUI replays with locally supplied proposals, without model generation or API/SQLite saving. The images show confirmation, feedback and inventory. The deterministic scenarios evaluate execution behaviour under supplied actions, not Qwen's error frequency.
 
 ## Development and Reflection
 
@@ -55,13 +55,14 @@ Table 1. Six deterministic supplied-action pairs: three invalid, two valid and o
 | Valid opening | 0/yes/closed | open_door | 0/yes/open | 0/yes/open | Committed |
 | Cancel purchase in A | 8/no/closed | sell_katana | 0/yes/closed | 8/no/closed | Cancelled |
 
-## Architecture and interaction records
+## Architecture and illustrated interactions
 
 ![ActionBridge architecture](../figures/architecture.svg)
 
-The [three record storyboards](../docs/INTERACTIONS_TEXT.md) describe G1 and E4.
-The illustrated coursework report also contains original G1/E4/H game captures.
-Those game images are distributed separately from this code snapshot.
+The [interaction records](../docs/INTERACTIONS_TEXT.md) describe the three G1/E4
+storyboards and the H-UI-02 sequence. The separately submitted illustrated report
+includes the original game captures. Figure 5b shows the second purchase
+proposal after cancellation, with eight Gold and no Katana retained.
 
 ## References
 
@@ -69,12 +70,16 @@ Rao, S., Xu, W., Xu, M., Leandro, J., Lobb, K., DesGarennes, G., Brockett, C., &
 
 Phillips, A., Lang, J., & Mould, D. (2025). Goal-oriented interactions in games using LLMs. IEEE Transactions on Games, 17(2), 510-521. https://doi.org/10.1109/TG.2024.3515807
 
-IIS module. (n.d.). Lab 2 worksheet, sections 2 and 5 [Course lab material].
+Lab 2 worksheet [Week 2 course worksheet, sections 2 and 5]. (n.d.).
 
-IIS module. (n.d.). W04 LAB04 Student To Do, steps 6-8 [Course lab guidance].
+Lab 4—Student To-Do: LLM/VLM integration, retrieval and tool use [Week 4 course lab guide, steps 6–8]. (n.d.).
 
 V-o-id. (n.d.). generative-npc-dialogue [Source code, frozen commit 1dc1ab3624b1475d1975e8e1e6dd86f0c171f265]. https://github.com/V-o-id/generative-npc-dialogue
 
-Repository: https://github.com/wawayuzhuzhou/npc-actionbridge-iis-a2
+## Repository and development record
 
-README: https://github.com/wawayuzhuzhou/npc-actionbridge-iis-a2/blob/main/README.md
+[Public repository](https://github.com/wawayuzhuzhou/npc-actionbridge-iis-a2)
+
+[README and Contributions and AI assistance](../README.md#contributions-and-ai-assistance)
+
+[Development record](../docs/CONTRIBUTIONS_AI.md)

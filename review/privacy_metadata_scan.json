@@ -163,6 +163,11 @@
       "exists_within_candidate": true
     },
     {
+      "source": "docs/INTERACTIONS_TEXT.md",
+      "target": "CONTRIBUTIONS_AI.md",
+      "exists_within_candidate": true
+    },
+    {
       "source": "docs/LICENCE_SCOPE.md",
       "target": "../LICENCE_SCOPE.json",
       "exists_within_candidate": true
@@ -320,6 +325,16 @@
     {
       "source": "report/REPORT_FINAL.md",
       "target": "../docs/INTERACTIONS_TEXT.md",
+      "exists_within_candidate": true
+    },
+    {
+      "source": "report/REPORT_FINAL.md",
+      "target": "../README.md",
+      "exists_within_candidate": true
+    },
+    {
+      "source": "report/REPORT_FINAL.md",
+      "target": "../docs/CONTRIBUTIONS_AI.md",
       "exists_within_candidate": true
     },
     {

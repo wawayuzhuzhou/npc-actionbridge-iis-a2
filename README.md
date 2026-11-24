@@ -1,6 +1,6 @@
 # NPC ActionBridge
 
-README prose word count: 681 (headings included; commands, link targets and this line excluded).
+README prose word count: 748 (headings included; commands, link targets and this line excluded).
 
 NPC ActionBridge connects generated NPC dialogue to player-controlled game actions.
 In an existing Godot RPG, it checks whether a proposed purchase or dojo opening
@@ -50,7 +50,12 @@ supplied actions and controlled initial states:
 These are deterministic execution results, not a Qwen error-rate estimate.
 Natural E3/E4 gameplay records illustrate progression and cancellation; the live
 G1 pair returned `none` in both conditions. H-UI-01 is a separate preset-state,
-guided student GUI replay. See [results and sources](evidence/SUMMARY.md) and
+guided student GUI replay. The final illustrated report also uses H-UI-02:
+preset eight Gold, supplied purchase proposals and fixed Merchant dialogue
+selected from actual outcomes. The student operated the real Confirm/Cancel
+controls. Its middle image shows the second purchase proposal after Cancel;
+Confirm then yields zero Gold and a Katana. No Qwen generation or API/SQLite
+saving occurs in this presentation replay. See [results and sources](evidence/SUMMARY.md) and
 [interaction storyboards](docs/INTERACTIONS_TEXT.md).
 
 ## Repository structure
@@ -94,8 +99,9 @@ recorded gameplay and GUI replay, and reviewed results. Copilot, ChatGPT and Cod
 assisted implementation, debugging, evidence analysis, diagrams and writing.
 Suggestions were revised to distinguish execution results from model accuracy,
 and checked against actual Godot state, SQLite, source hashes and rendered reports.
-[Development and assistance](docs/CONTRIBUTIONS_AI.md) identifies the main changes
-and the reused game/framework.
+[Development record](docs/CONTRIBUTIONS_AI.md) connects the student's decisions,
+AI-assisted changes and checks, including the H-UI-02 presentation refinement.
+It also identifies the reused game/framework.
 
 ## Licence and acknowledgements
 

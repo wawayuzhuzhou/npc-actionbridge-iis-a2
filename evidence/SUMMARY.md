@@ -11,6 +11,20 @@ visible interaction. Original records remain in the private development archive.
 | Original rejected G1 submissions | Two HTTP403 rejections before provider dispatch | Identity mismatch; zero generated baseline observations; retained failures, not a model result. |
 | Deterministic D fixtures | Six identical supplied-action B/A pairs; 12 headless executions in a recorded run; actual ASGI/Godot/SQLite checks | Programmed choices, injected actions, same scenarios on revalidation; no model-error frequency or human/usability effect. |
 | H-UI-01 | Guided student-operated fixture GUI replay; Cancel keeps 8 Gold/no Katana, Confirm gives 0/Katana; three actual private images agree with five semantic events | Preset state and instructed choices; no new model/API/SQLite save, natural map journey or participant study. Original case warning retained. |
+| H-UI-02 | Preset-state shop presentation with supplied purchase proposals, fixed outcome-grounded Merchant lines and student-operated original controls; Cancel retains 8 Gold/no Katana; Confirm gives 0/Katana | Second image is the second proposal after cancellation. Fixed text is not Qwen output; no API/SQLite save or normal map journey. Original records remain separate from H-UI-01 and E4. |
+
+## H-UI-02 capture sequence
+
+1. The first purchase proposal is pending with eight Gold and no Katana.
+2. The student chooses Cancel. Inventory is unchanged, and a second purchase
+   proposal is displayed. This is Figure 5b in the submitted report.
+3. The student confirms the second proposal. The original action code spends
+   eight Gold and grants the Katana; the HUD and fixed Merchant line agree.
+
+The retained event log records both original system feedback and displayed
+Merchant text. The three PNGs are original Godot viewport captures, not edited
+historical screenshots. The presentation runner uses the original local bridge
+and inventory functions; it does not invoke generation or outcome persistence.
 
 ## Deterministic supplied-action outcomes
 

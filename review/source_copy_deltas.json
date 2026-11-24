@@ -20,5 +20,6 @@
   "final_documentation_and_generated_records": "Targeted final report edits, active scoped MIT, README and regenerated review metadata",
   "final_editorial_delta": "Report, README, diagram labels and explanatory documentation only; code/data/evaluation records unchanged; no execution repeated.",
   "licence_scope_refinement": "World facts classified as retained upstream data, not original code; file bytes and upstream terms unchanged.",
-  "release_delta": "Based on the accepted 80-file snapshot; one LICENSE added; no executable, fixture, result or upstream notice changed"
+  "release_delta": "Based on the accepted 80-file snapshot; one LICENSE added; no executable, fixture, result or upstream notice changed",
+  "final_brief_sync": "Public text now matches H-UI-02 supplied-state, authored-dialogue replay and restored lab references; executable code and historical results unchanged."
 }
