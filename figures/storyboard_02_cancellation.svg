@@ -33,5 +33,5 @@
 <text x='1215' y='463.040000915527' font-family='Segoe UI,Arial,sans-serif' font-size='34' font-weight='400' fill='#17212B'>&quot;No, you do not.&quot;</text>
 <text x='1215' y='506.560001373291' font-family='Segoe UI,Arial,sans-serif' font-size='34' font-weight='400' fill='#17212B'>action: none</text>
 <text x='40' y='842' font-family='Segoe UI,Arial,sans-serif' font-size='27' font-weight='400' fill='#334155'>Source: E4 sale cancellation and the next Merchant conversation</text>
-<text x='40' y='928' font-family='Segoe UI,Arial,sans-serif' font-size='25' font-weight='400' fill='#475569'>The ownership reply agrees with the unchanged inventory after cancellation.</text>
+<text x='40' y='928' font-family='Segoe UI,Arial,sans-serif' font-size='25' font-weight='400' fill='#475569'>The Merchant confirms that the player does not own the Katana after cancellation.</text>
 </svg>

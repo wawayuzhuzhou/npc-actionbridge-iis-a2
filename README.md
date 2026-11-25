@@ -1,9 +1,9 @@
 # NPC ActionBridge
 
-README prose word count: 779 (headings and table cells included; commands, link targets and this line excluded).
+README prose word count: 786 (headings and table cells included; commands, link targets and this line excluded).
 
 NPC ActionBridge connects natural-language conversations with non-player
-characters (NPCs) to player-controlled game actions. The reused Godot role-playing
+characters (NPCs) to player-controlled game actions. The intended quest in the reused Godot role-playing
 game asks the player to collect eight Gold, buy a Katana sword from the Merchant
 and hold it to gain entry to the dojo, a martial-arts training hall.
 
@@ -24,7 +24,7 @@ The [report](report/REPORT_FINAL.md) explains the research question and design c
 
 1. Generate a structured NPC reply and action proposal.
 2. Check the actual local Gold, Katana, door state and permitted NPC/action pairing.
-3. Show the action and its cost through Confirm/Cancel.
+3. Show only valid consequential proposals and their costs through Confirm/Cancel.
 4. On Confirm, recheck, execute and verify the resulting state. Cancel preserves state.
 5. Reconcile the stored conversation with the outcome, retaining the raw proposal separately.
 
@@ -37,7 +37,7 @@ the returned action. ActionBridge A adds the validation, choice and outcome path
 
 Godot owns the trusted single-player inventory and door nodes. FastAPI assembles
 NPC/history context, FAISS retrieves five world facts and Qwen generates a reply.
-SQLite stores dialogue, proposals and reported outcomes. A persistence retry saves
+SQLite stores dialogue, proposals and reported outcomes. Retrying an outcome-save request saves
 the same result without repeating the action or generation.
 [Architecture details](docs/ARCHITECTURE.md) show both B/A branches.
 

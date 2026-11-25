@@ -28,5 +28,11 @@
     "main_words": 1052,
     "abstract_words": 181,
     "new_provider_or_Godot_runs": 0
+  },
+  "semantic_proofreading": {
+    "scope": "Local report wording, three derived diagram labels, README consistency and HUD definition; code, rules, licences, raw screenshots and experimental records unchanged.",
+    "main_words": 1064,
+    "abstract_words": 189,
+    "new_provider_or_Godot_runs": 0
   }
 }
