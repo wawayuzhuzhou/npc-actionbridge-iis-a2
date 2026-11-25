@@ -139,7 +139,7 @@
     },
     {
       "source": "docs/CONTRIBUTIONS_AI.md",
-      "target": "../adapter/qwen_baseline/backend.py",
+      "target": "../adapter/qwen_baseline/fastapi_app.py",
       "exists_within_candidate": true
     },
     {

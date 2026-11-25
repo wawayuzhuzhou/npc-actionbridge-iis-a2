@@ -53,7 +53,7 @@ this public snapshot; the illustrated coursework report contains the captures.
 ## Inspectable design decisions
 
 The shared Qwen adapter preserves the upstream context policy, while the two
-execution paths expose the intervention. The [Baseline backend](../adapter/qwen_baseline/backend.py)
+execution paths expose the intervention. The [Baseline FastAPI backend](../adapter/qwen_baseline/fastapi_app.py)
 stores the generated response; the [local bridge](../adapter/actionbridge/godot/ActionBridge.gd)
 checks prerequisites and resolves Confirm/Cancel. The [outcome store](../adapter/actionbridge/store.py)
 reconciles the proposal with its linked conversation. The preserved
