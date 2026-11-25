@@ -1,12 +1,17 @@
 # NPC ActionBridge
 
-README prose word count: 748 (headings included; commands, link targets and this line excluded).
+README prose word count: 779 (headings and table cells included; commands, link targets and this line excluded).
 
-NPC ActionBridge connects generated NPC dialogue to player-controlled game actions.
-In an existing Godot RPG, it checks whether a proposed purchase or dojo opening
-is possible, shows the consequence before Confirm/Cancel, and records what the
-game actually did. The project studies how an NPC can offer consequential actions
-without treating its own words as proof of execution.
+NPC ActionBridge connects natural-language conversations with non-player
+characters (NPCs) to player-controlled game actions. The reused Godot role-playing
+game asks the player to collect eight Gold, buy a Katana sword from the Merchant
+and hold it to gain entry to the dojo, a martial-arts training hall.
+
+A generated reply can include an instruction to purchase the sword or open the
+door. The baseline dispatches this action immediately. ActionBridge checks
+whether it is possible, presents Confirm/Cancel and records what the game
+actually did. The project examines how conversational proposals can lead to
+valid actions that the player has authorised.
 
 ## Research problem
 
@@ -23,7 +28,7 @@ The [report](report/REPORT_FINAL.md) explains the research question and design c
 4. On Confirm, recheck, execute and verify the resulting state. Cancel preserves state.
 5. Reconcile the stored conversation with the outcome, retaining the raw proposal separately.
 
-Ordinary `none` replies remain normal dialogue. Baseline B immediately dispatches
+The action value `none` means no special game action; these replies remain normal dialogue. Baseline B immediately dispatches
 the returned action. ActionBridge A adds the validation, choice and outcome path.
 
 ## Architecture
@@ -48,11 +53,12 @@ supplied actions and controlled initial states:
 | One cancellation comparison | Dispatched the purchase | Retained 8 Gold and no Katana |
 
 These are deterministic execution results, not a Qwen error-rate estimate.
-Natural E3/E4 gameplay records illustrate progression and cancellation; the live
-G1 pair returned `none` in both conditions. H-UI-01 is a separate preset-state,
-guided student GUI replay. The final illustrated report also uses H-UI-02:
-preset eight Gold, supplied purchase proposals and fixed Merchant dialogue
-selected from actual outcomes. The student operated the real Confirm/Cancel
+Original walkthroughs illustrate baseline progression (E3) and ActionBridge
+cancellation and progression (E4). A matched live-model entry test (G1) returned
+`none` in both conditions. Student-operated interface replays make the controls
+visible: an initial guided replay (H-UI-01) and a shop presentation (H-UI-02).
+Both use preset states and supplied proposals. The shop presentation adds fixed
+Merchant dialogue selected from actual outcomes. The student operated the real Confirm/Cancel
 controls. Its middle image shows the second purchase proposal after Cancel;
 Confirm then yields zero Gold and a Katana. No Qwen generation or API/SQLite
 saving occurs in this presentation replay. See [results and sources](evidence/SUMMARY.md) and

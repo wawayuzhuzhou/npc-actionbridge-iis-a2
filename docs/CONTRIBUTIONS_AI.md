@@ -13,7 +13,7 @@ and writing. The student is responsible for the submitted claims and references.
 | Evaluation | Separated live G1, deterministic supplied-action scenarios and guided H controls | Saved contexts, state/API/SQL comparisons and student screenshots |
 | Reproduction | Imported raw assets before loading scenes/autoloads in new runtime copies | Three clean Windows imports and six paired headless scenarios |
 | H-UI-02 presentation | Responded to the student's feedback about empty space and mechanical NPC wording: reused the shop graphics, then selected fixed Merchant lines from actual outcomes | Student Cancel/Confirm signals, three untouched viewport captures, original feedback retained separately, unchanged bridge/HUD hashes |
-| Final report and README | Replaced generic success claims with the three-invalid/two-valid/one-cancel result; simplified repeated limitations | Existing result records, document text counts and all-page PDF inspection |
+| Final report and README | Introduced the game task before examples; distinguished interpretation, validity and authorisation; explained methods before findings and used case IDs for evidence location | Existing results and source code, reference records, actual document counts and all-page rendering |
 
 AI suggestions were revised when they blurred execution tests with model
 accuracy or treated guided screenshots as natural gameplay. Checks used actual

@@ -1,17 +1,21 @@
 # Interaction storyboards
 
 These diagrams summarise saved dialogue and outcome records. Original game
-captures appear in the separate illustrated coursework report.
+captures appear in the separate illustrated coursework report. The player buys a
+Katana sword for eight Gold, then needs to hold it to enter the dojo. Baseline B
+dispatches returned actions directly; ActionBridge A checks state, asks for
+authorisation and reconciles outcomes. The action `none` triggers no special
+game action.
 
-## G1 request without a Katana
+## Matched live-model entry test (G1)
 
 ![G1 live pair](../figures/storyboard_01_g1.svg)
 
-The student submitted the same request in B and A with no Katana. Both models
+The student submitted the same request in B and A with no Katana. Both Qwen responses
 returned `none`, and the doors stayed closed. Recorded retrieval/generation
 contexts matched. This sequence follows ordinary dialogue without a modal.
 
-## E4 cancellation and ownership follow-up
+## Cancellation and ownership follow-up in recorded gameplay (E4)
 
 ![E4 cancellation](../figures/storyboard_02_cancellation.svg)
 
@@ -20,7 +24,7 @@ Cancellation kept eight Gold and no Katana; the next generated ownership reply
 correctly said the player did not own the sword. The diagram is drawn from E4
 records, rather than recreating a historical confirmation-window screenshot.
 
-## E4 purchase and dojo entry
+## Purchase and dojo entry in recorded gameplay (E4)
 
 ![E4 progress](../figures/storyboard_03_progress.svg)
 
@@ -28,7 +32,7 @@ A later purchase was committed, followed by a committed dojo opening. The actual
 input `I wanna be a dojo!` is retained because it shows the distinction between a
 legal state transition and an unambiguous request.
 
-## H-UI-01 purchase controls
+## Student-operated purchase controls (H-UI-01)
 
 The separate H-UI-01 guided GUI replay starts with preset eight Gold and supplied
 purchase proposals. The student chose Cancel, then Confirm. The three original
@@ -36,7 +40,7 @@ images show the proposal, eight Gold retained after cancellation, and zero Gold
 plus Katana after confirmation. No model generation or API/SQLite saving occurs
 in this fixture. These images are H evidence, separate from E4 natural gameplay.
 
-## H-UI-02 shop dialogue presentation
+## Student-operated shop dialogue presentation (H-UI-02)
 
 The final report's Figure 5 uses a separate preset-state replay in the shop
 layout. Fixed Merchant lines replace the mechanical state wording in the

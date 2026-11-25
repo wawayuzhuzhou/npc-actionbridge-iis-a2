@@ -22,5 +22,11 @@
   "licence_scope_refinement": "World facts classified as retained upstream data, not original code; file bytes and upstream terms unchanged.",
   "release_delta": "Based on the accepted 80-file snapshot; one LICENSE added; no executable, fixture, result or upstream notice changed",
   "final_brief_sync": "Public text now matches H-UI-02 supplied-state, authored-dialogue replay and restored lab references; executable code and historical results unchanged.",
-  "final_sprint_documentation": "Targeted final prose and development-record links; main report 1003 words, abstract 191. No executable, fixture, raw record, result, image or licence-scope change."
+  "final_sprint_documentation": "Targeted final prose and development-record links; main report 1003 words, abstract 191. No executable, fixture, raw record, result, image or licence-scope change.",
+  "reader_centred_revision": {
+    "scope": "Report, README, interaction explanations and development-record prose; unchanged architecture, table data, code, licence and original observations.",
+    "main_words": 1052,
+    "abstract_words": 181,
+    "new_provider_or_Godot_runs": 0
+  }
 }
